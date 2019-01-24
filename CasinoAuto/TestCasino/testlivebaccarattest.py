@@ -80,7 +80,7 @@ class livebaccarattest(BaseTestCase, unittest.TestCase):
 
         print("Info Number of images in this page equals: ", ng)
         time.sleep(5)
-        for i in range(1, ng - 6):  # footer images are deducted (- 5)
+        for i in range(1, ng - 10):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifygamename(i)
             print("Info game existing of i= ", i)
     def testverifyexistingofdelaername(self):
@@ -93,7 +93,7 @@ class livebaccarattest(BaseTestCase, unittest.TestCase):
 
         print("Info Number of images in this page equals: ", ng)
         time.sleep(5)
-        for i in range(1, ng - 6):  # footer images are deducted (- 5)
+        for i in range(1, ng - 10):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifydealername(i)
             if(gname==1):
                 print("Info Dealer name existing of i= ", i)
@@ -107,7 +107,7 @@ class livebaccarattest(BaseTestCase, unittest.TestCase):
         if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
             ng = 12
 
-        print("Info Number of game in this page equals: ", ng)
+        print("Info Number of images in this page equals: ", ng)
         time.sleep(5)
         for i in range(1, ng - 10):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifygameminmax(i)

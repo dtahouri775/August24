@@ -25,7 +25,7 @@ class playforfuntest(BaseTestCase, unittest.TestCase):
             if(Casino_Constants['Browser']=='edge'):#edge does not recognize number of images correctly
                 ng=12
             mystr = "None"
-            print("Number of game in this page equals: ",ng)
+            print("Number of images in this page equals: ",ng)
             time.sleep(3)
             casino_page_obj = CasinoPage(self.driver)
             for i in range(1,ng-6):  # footer images are deducted (- 6)
@@ -48,7 +48,7 @@ class playforfuntest(BaseTestCase, unittest.TestCase):
         if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
             ng = 12
         mystr = "None"
-        print("Number of game in this page equals: ", ng)
+        print("Number of images in this page equals: ", ng)
         time.sleep(3)
         casino_page_obj = CasinoPage(self.driver)
         for i in range(1, ng - 6):  # footer images are deducted (- 6)
@@ -71,7 +71,7 @@ class playforfuntest(BaseTestCase, unittest.TestCase):
         if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
             ng = 12
         mystr = "None"
-        print("Number of game in this page equals: ", ng)
+        print("Number of images in this page equals: ", ng)
         time.sleep(3)
         casino_page_obj = CasinoPage(self.driver)
         for i in range(1, ng - 5):  # footer images are deducted (- 5)

@@ -146,7 +146,7 @@ class LiveblackjackPage(BasePage):
 
             element1.click()
         except:
-            print("Bug Live Black Jack Page: Not able to click  <i> button, may be covered by bet slip Error i: element->",a)
+            print("Bug Live Black Jack Page: Not able to click  <i> button, may be covered by bet slip Bug  i: element->",a)
             er=1
 
         if(er==0):#if accessed to landing page
@@ -165,7 +165,7 @@ class LiveblackjackPage(BasePage):
                 gameprovider = self.find_element("cssSelector", CasinoPageMapXpath["LiveLPprovider"])
 
             except:
-                raise Exception("Bug:Game Provider is not available Error:201 Elemnent=",a)
+                raise Exception("Bug:Game Provider is not available Bug :201 Elemnent=",a)
 
             #verify game rule is there
             try:
@@ -173,7 +173,7 @@ class LiveblackjackPage(BasePage):
                 gamerule = self.find_element("cssSelector", CasinoPageMapXpath["LiveLPgamerule"])
 
             except:
-                raise Exception("Bug Game Rule is not available Error:201 GameElement=",a)
+                raise Exception("Bug Game Rule is not available Bug :201 GameElement=",a)
 
                 # verify game description is there
             try:
@@ -182,15 +182,15 @@ class LiveblackjackPage(BasePage):
                 text = gamedes.text
                 print("Info: Game description is:",text)
             except:
-                print("Bug Live Black Jack Page:Game Descritpin is not available Error:201")
-                #raise Exception("Game Descritpin is not available Error:201")# we may use this based on Sam feed back.
+                print("Bug Live Black Jack Page:Bug Game Descritpin is not available Bug :201")
+                #raise Exception("Bug Game Descritpin is not available Bug :201")# we may use this based on Sam feed back.
                 #putting this statement will not let to continue testing other games,
             try:
                 gamerule = self.wait_for_element_visibility(10, "cssSelector", LiveCasinoPageMap["LivePlaynow"])
                 gamerule = self.find_element("cssSelector", LiveCasinoPageMap["LivePlaynow"])
                 print("Info: Live Play now is displayed")
             except:
-                raise Exception("Exception Bug in LivePlaynow is not available Error:202")
+                raise Exception("Exception Bug in LivePlaynow is not available Bug :202")
 
             #LivePlaynow
             element2 = self.find_element("cssSelector", LiveblackjackPageMap["landingblackjack"])

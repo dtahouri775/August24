@@ -17,7 +17,7 @@ class liveotherstest(BaseTestCase, unittest.TestCase):
         self.navigate_to_page(Casino_Constants['Base_URL'] + "/casino")
         self.driver.maximize_window()
 
-    def testLogindirectlyTest(self):
+    def testVerify_A_User_Can_Direct_Launch_Test(self):
 
             lg_page_obj = LiveothersPage(self.driver)
             lg_page_obj.liveothers()
@@ -28,7 +28,7 @@ class liveotherstest(BaseTestCase, unittest.TestCase):
             print("Info Number of images in this page equals: ",ng)
             time.sleep(5)
             k=0
-            for i in range(1, ng - 10):  # footer images are deducted (- 5), and there are additional image on this page too
+            for i in range(1, 10):  # footer images are deducted (- 5), and there are additional image on this page too
                 print('Info  i= ',i)
                 exist=lg_page_obj.existgameimage(i)
                 if(exist==1):
@@ -80,7 +80,7 @@ class liveotherstest(BaseTestCase, unittest.TestCase):
 
         print("Info Number of images in this page equals: ", ng)
         time.sleep(5)
-        for i in range(1, ng - 6):  # footer images are deducted (- 5)
+        for i in range(1, ng - 10):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifygamename(i)
             print("Info game existing of i= ", i)
     def testverifyexistingofdelaername(self):
@@ -93,7 +93,7 @@ class liveotherstest(BaseTestCase, unittest.TestCase):
 
         print("Info Number of images in this page equals: ", ng)
         time.sleep(5)
-        for i in range(1, ng - 6):  # footer images are deducted (- 5)
+        for i in range(1, ng - 10):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifydealername(i)
             if(gname==1):
                 print("Info Dealer name existing of i= ", i)
@@ -107,7 +107,7 @@ class liveotherstest(BaseTestCase, unittest.TestCase):
         if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
             ng = 12
 
-        print("Info Number of game in this page equals: ", ng)
+        print("Info Number of images in this page equals: ", ng)
         time.sleep(5)
         for i in range(1, ng - 10):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifygameminmax(i)
@@ -115,6 +115,18 @@ class liveotherstest(BaseTestCase, unittest.TestCase):
                 print("Info Existing of min-max  i= ", i)
             if (gname == 0):
                 print("Bug: NOt Existing of min-max  i= ", i)
+    def testVerifyGameTileDisplaysAvailableSeatsForBlackjack(self):
+
+        rg_page_obj = LiveothersPage(self.driver)
+        rg_page_obj.liveothers()
+        ng = rg_page_obj.getgamenumber()
+        if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
+            ng = 12
+
+        print("Info:Number of images in this page equals: ", ng)
+        time.sleep(5)
+        for i in range(1, ng - 10):  # footer images are deducted (- 5)
+            gname = rg_page_obj.verifyavailableseats(i)
     def tearDown(self):
         super(liveotherstest, self).tearDown()
 

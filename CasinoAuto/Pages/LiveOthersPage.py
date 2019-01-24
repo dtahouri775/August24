@@ -6,7 +6,7 @@ Moddified on December 21
 '''
 from BasePage import BasePage
 from CasinoAuto.Constants                                import Casino_Constants
-from CasinoAuto.Locators.UIMapLiveCasino import LiveCasinoPageMap
+from CasinoAuto.Locators.UIMapLiveCasino import Livegamescommon
 import time
 from CasinoAuto.Locators.UIMapLiveCasino import LiveCasinoPageMap
 from CasinoAuto.Locators.UIMapLiveCasino import LiveOthersPageMap
@@ -84,6 +84,38 @@ class LiveothersPage(BasePage):
 
             except:
                 raise Exception(" user name is not displayed")
+            tempng1 = "LiveOthersGameimage" + str(a)
+            try:  # click game image again after logged in to load the game
+                element1 = self.wait_for_element_visibility(10, "cssSelector", LiveOthersPageMap[tempng1])
+                element1 = self.find_element("cssSelector", LiveOthersPageMap[tempng1])
+                try:
+                    element1.click()
+                    return 1
+                except:
+                    print(
+                    "Bug Live Others Page:Element Livegamelaunch is not clickable yet, probably image is not there! Element=",
+                    a)
+                    return 0
+            except:
+                print(
+                "Bug Live Others Page:Element  image in Others is not clickable yet, probably image is not there! Element=",
+                a)
+            tempng1 = "LiveOthersGameimage" + str(a)
+            try:  # click game image again after logged in to load the game
+                element1 = self.wait_for_element_visibility(10, "cssSelector", LiveOthersPageMap[tempng1])
+                element1 = self.find_element("cssSelector", LiveOthersPageMap[tempng1])
+                try:
+                    element1.click()
+                    return 1
+                except:
+                    print(
+                    "Bug Live Others Page:Element Livegamelaunch is not clickable yet, probably image is not there! Element=",
+                    a)
+                    return 0
+            except:
+                print(
+                "Bug Live Others Page:Element  image in Others is not clickable yet, probably image is not there! Element=",
+                a)
 
             return (text1)
 
@@ -131,7 +163,7 @@ class LiveothersPage(BasePage):
 
             element1.click()
         except:
-            print("Bug Not able to click  <i> button, may be covered by bet slip Error 200i: element->",a)
+            print("Bug Not able to click  <i> button, may be covered by bet slip Bug  200i: element->",a)
             er=1
 
         if(er==0):#if accessed to landing page
@@ -143,7 +175,7 @@ class LiveothersPage(BasePage):
                 text = gamename.text
                 print("Info text=",text)
             except:
-                raise Exception("Game Name is not available Error:200")
+                raise Exception("Game Name is not available Bug :200")
             print("Info Game name is: ",text)
             #verify game provider
             try:
@@ -151,7 +183,7 @@ class LiveothersPage(BasePage):
                 gameprovider = self.find_element("cssSelector", CasinoPageMapXpath["LiveLPprovider"])
 
             except:
-                raise Exception("Game Provider is not available Error:201")
+                raise Exception("Game Provider is not available Bug :201")
 
             #verify game rule is there
             try:
@@ -159,7 +191,7 @@ class LiveothersPage(BasePage):
                 gamerule = self.find_element("cssSelector", CasinoPageMapXpath["LiveLPgamerule"])
 
             except:
-                raise Exception("Game Rule is not available Error:201")
+                raise Exception("Game Rule is not available Bug :201")
 
                 # verify game description is there
             try:
@@ -168,15 +200,15 @@ class LiveothersPage(BasePage):
                 text = gamedes.text
                 print("Info Game description is:",text)
             except:
-                print("Info Game Descritpin is not available Error:201")
-                #raise Exception("Game Descritpin is not available Error:201")# we may use this based on Sam feed back.
+                print("Info Bug Game Descritpin is not available Bug :201")
+                #raise Exception("Bug Game Descritpin is not available Bug :201")# we may use this based on Sam feed back.
                 #putting this statement will not let to continue testing other games,
             try:
                 gamerule = self.wait_for_element_visibility(10, "cssSelector", LiveCasinoPageMap["LivePlaynow"])
                 gamerule = self.find_element("cssSelector", LiveCasinoPageMap["LivePlaynow"])
                 print("Info Live Play now is displayed")
             except:
-                raise Exception("LivePlaynow is not available Error:202")
+                raise Exception("LivePlaynow is not available Bug :202")
 
             #LivePlaynow
             element2 = self.find_element("cssSelector", LiveOthersPageMap["landingothers"])
@@ -238,8 +270,21 @@ class LiveothersPage(BasePage):
             element1 = self.find_element("cssSelector", LiveCasinoPageMap[tempng1])
             return 1;
         except:
-            print("Bug Provider min-max is not there! ErrorLive100 A=",a)
+            print("Bug Provider min-max is not there! Bug Live100 A=",a)
             return 0
+
+    def verifyavailableseats(self, a):
+        tempng1 = "Livegamereult" + str(a)
+        try:
+            element1 = self.wait_for_element_visibility(10, "cssSelector", Livegamescommon[tempng1])
+            element1 = self.find_element("cssSelector", Livegamescommon[tempng1])
+            seat = element1.text
+            print("Info Ok, for GameTile Display Seat available:", seat)
+            return 1;
+        except:
+            print("Bug  for Not availablity of Game Tile Display Seat available: Element= ", a)
+            return 0
+
     def verifydealername(self,a):
         tempng1 = "LiveDealername" + str(a)
         try:
@@ -247,5 +292,5 @@ class LiveothersPage(BasePage):
             element1 = self.find_element("cssSelector", LiveCasinoPageMap[tempng1])
             return 1;
         except:
-            print("Bug Dealer name is not there! ErrorLive101 A=",a)
+            print("Bug Dealer name is not there! Bug Live101 A=",a)
             return 0

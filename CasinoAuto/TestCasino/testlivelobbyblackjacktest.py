@@ -2,6 +2,7 @@
 Created on December 11, 2018
 Change on December 20, 2018
 Change on December 28, 2018
+Change on January 24, 2019
 @author: Daryoush
 '''
 import unittest
@@ -29,7 +30,7 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             print("Info: Number of images in this page equals: ",ng)
             time.sleep(5)
             k=0
-            for i in range(1, ng - 10):  # footer images are deducted (- 5), and there are additional image on this page too
+            for i in range(1, ng - 6):  # footer images are deducted (- 5), and there are additional image on this page too
                 print('Info: i= ',i)
                 exist=lg_page_obj.existgameimage(i)
                 try:  # just to make sure that the issue is not Nothanks button that randomly appears in Blackjack page
@@ -47,7 +48,8 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
                     print("Info Successful Log out")
 
                 if (exist == 0):
-                    print("Bug  Black jack Page Log in  Directly issue:  Ement=", i)
+                    print(""
+                          "  Ement=", i)
                     time.sleep(3)
                 time.sleep(3)
                 try:  # just to make sure that the issue is not Nothanks button that randomly appears
@@ -118,9 +120,9 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
         if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
             ng = 12
 
-        print("Info:Number of game in this page equals: ", ng)
+        print("Info:Number of images in this page equals: ", ng)
         time.sleep(5)
-        for i in range(1, ng - 10):  # footer images are deducted (- 5)
+        for i in range(1, ng - 6):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifygameminmax(i)
     def testVerifyGameTileDisplaysAvailableSeatsForBlackjack(self):
 
@@ -130,9 +132,9 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
         if (Casino_Constants['Browser'] == 'edge'):  # edge does not recognize number of images correctly
             ng = 12
 
-        print("Info:Number of game in this page equals: ", ng)
+        print("Info:Number of images in this page equals: ", ng)
         time.sleep(5)
-        for i in range(1, ng - 10):  # footer images are deducted (- 5)
+        for i in range(1, ng - 6):  # footer images are deducted (- 5)
             gname = rg_page_obj.verifyavailableseats(i)
     def tearDown(self):
         super(liveblackjacktest, self).tearDown()
