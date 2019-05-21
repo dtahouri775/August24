@@ -1,0 +1,335 @@
+Baccarat Game Started: 
+2019-04-09 10:24:31.162000
+Info: Number of games in this(Baccarat) page equals: 11
+Info Game name is:Baccarat B
+Info Game Description available: game=1
+Info Live Play now is displayed: game= 1
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=1
+Info Game name is:Baccarat Control Squeeze
+Info Game Description available: game=2
+Info Live Play now is displayed: game= 2
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=2
+Info Game name is:Baccarat Squeeze
+Info Game Description available: game=3
+Info Live Play now is displayed: game= 3
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=3
+Info Game name is:Live Baccarat
+Info Game Description available: game=4
+Info Live Play now is displayed: game= 4
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=4
+Info Game name is:No Comm Speed Baccarat
+Info Game Description available: game=5
+Info Live Play now is displayed: game= 5
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=5
+Info Game name is:No Commission Baccarat
+Info Game Description available: game=6
+Info Live Play now is displayed: game= 6
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=6
+Info Game name is:Speed Baccarat A
+Info Game Description available: game=7
+Info Live Play now is displayed: game= 7
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=7
+Info Game name is:Speed Baccarat B
+Info Game Description available: game=8
+Info Live Play now is displayed: game= 8
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=8
+Info Game name is:Speed Baccarat C
+Info Game Description available: game=9
+Info Live Play now is displayed: game= 9
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=9
+Info Game name is:Speed Baccarat D
+Info Game Description available: game=10
+Info Live Play now is displayed: game= 10
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=10
+Info Game name is:Speed Baccarat E
+Info Game Description available: game=11
+Info Live Play now is displayed: game= 11
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=11
+Baccarat Game Finished Testing: 
+2019-04-09 10:25:00.934000
+Baccarat Game Started: 
+2019-04-09 10:25:12.685000
+Info: Number of games in this(Baccarat) page equals: 11
+Game Tested for log in directly in Baccart Page: Game=1
+Successful Log in: click_loginfromlandingpage game =1
+LiveGameimage1
+Baccarat Game Started: 
+2019-04-09 10:25:40.637000
+Info: Number of games in this(Baccarat) page equals: 11
+Baccarat Game Finished Testing: 
+2019-04-09 10:25:56.364000
+Baccarat Game Started: 
+2019-04-09 10:26:08.209000
+Baccarat Game Started: 
+2019-04-09 10:29:07.852000
+Info: Number of games in this(Baccarat) page equals: 6
+Info Game name is:BAC CHAT DNT
+Info Game Description available: game=1
+Info Live Play now is displayed: game= 1
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=1
+Info Game name is:Baccarat B
+Info Game Description available: game=2
+Info Live Play now is displayed: game= 2
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=2
+Info Game name is:Baccarat Control Squeeze
+Info Game Description available: game=3
+Info Live Play now is displayed: game= 3
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=3
+Info Game name is:Baccarat Squeeze
+Info Game Description available: game=4
+Info Live Play now is displayed: game= 4
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=4
+Info Game name is:Baccarat Squeeze
+Info Game Description available: game=5
+Info Live Play now is displayed: game= 5
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=5
+Info Game name is:Live Baccarat
+Info Game Description available: game=6
+Info Live Play now is displayed: game= 6
+Game Tested for LandingpageGame_name_provider_Rules_Description in Baccart Page: Game=6
+Baccarat Game Finished Testing: 
+2019-04-09 10:29:30.641000
+Baccarat Game Started: 
+2019-04-09 10:29:53.720000
+Info: Number of games in this(Baccarat) page equals: 6
+Game Tested for log in directly in Baccart Page: Game=1
+Successful Log in: click_loginfromlandingpage game =1
+LiveGameimage1
+Game Tested for log in directly in Baccart Page: Game=2
+Successful Log in: click_loginfromlandingpage game =2
+LiveGameimage2
+Game Tested for log in directly in Baccart Page: Game=3
+Successful Log in: click_loginfromlandingpage game =3
+LiveGameimage3
+Game Tested for log in directly in Baccart Page: Game=4
+Successful Log in: click_loginfromlandingpage game =4
+LiveGameimage4
+Game Tested for log in directly in Baccart Page: Game=5
+Successful Log in: click_loginfromlandingpage game =5
+LiveGameimage5
+Game Tested for log in directly in Baccart Page: Game=6
+Successful Log in: click_loginfromlandingpage game =6
+LiveGameimage6
+Baccarat Game Finished Testing: 
+2019-04-09 10:31:31.064000
+Baccarat Game Started: 
+2019-04-09 10:31:54.309000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:32:07.810000
+Baccarat Game Started: 
+2019-04-09 10:32:25.080000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:32:38.532000
+Baccarat Game Started: 
+2019-04-09 10:32:56.536000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:33:10.287000
+Baccarat Game Started: 
+2019-04-09 10:33:30.687000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:33:44.620000
+Baccarat Game Started: 
+2019-04-09 10:34:07.434000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:34:21.388000
+Baccarat Game Started: 
+2019-04-09 10:34:42.691000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:34:56.344000
+Baccarat Game Started: 
+2019-04-09 10:35:20.129000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:35:36.063000
+Baccarat Game Started: 
+2019-04-09 10:35:57.885000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:36:13.905000
+Baccarat Game Started: 
+2019-04-09 10:36:36.240000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:36:49.700000
+Baccarat Game Started: 
+2019-04-09 10:37:09.712000
+Baccarat Game Finished Testing: 
+2019-04-09 10:37:11.052000
+Baccarat Game Started: 
+2019-04-09 10:37:29.057000
+Baccarat Game A-Z changes to Z-A for sorting:
+Baccarat Game Finished Testing: 
+2019-04-09 10:37:30.082000
+Baccarat Game Started: 
+2019-04-09 10:37:53.646000
+Baccarat Game A-Z existing for sorting:
+Baccarat Game Finished Testing: 
+2019-04-09 10:37:54.605000
+Baccarat Game Started: 
+2019-04-09 10:38:10.480000
+Baccarat Game Stake Size text is existing:
+Baccarat Game Finished Testing: 
+2019-04-09 10:38:11.160000
+Baccarat Game Started: 
+2019-04-09 10:38:28.383000
+Baccarat Game Stake Size text is existing:
+Baccarat Game Finished Testing: 
+2019-04-09 10:38:29.242000
+Baccarat Game Started: 
+2019-04-09 10:39:13.085000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:39:25.780000
+Baccarat Game Started: 
+2019-04-09 10:39:46.458000
+Info: Number of games in this(Baccarat) page equals: 6
+Game name element in Baccrat page is there game =1
+Game name element in Baccrat page is there game =2
+Game name element in Baccrat page is there game =3
+Game name element in Baccrat page is there game =4
+Game name element in Baccrat page is there game =5
+Game name element in Baccrat page is there game =6
+Baccarat Game Finished Testing: 
+2019-04-09 10:39:59.696000
+Baccarat Game Started: 
+2019-04-09 10:40:22.081000
+Info: Number of games in this(Baccarat) page equals: 6
+Baccarat Game Finished Testing: 
+2019-04-09 10:40:34.422000
+Baccarat Game Started: 
+2019-04-09 10:40:57.346000
+Info: Number of games in this(Baccarat) page equals: 6
+Provider Log game is displayed game=1
+Provider Log game is displayed game=2
+Provider Log game is displayed game=3
+Provider Log game is displayed game=4
+Provider Log game is displayed game=5
+Provider Log game is displayed game=6
+Baccarat Game Finished Testing: 
+2019-04-09 10:41:09.709000
+Baccarat Game Started: 
+2019-04-09 10:45:32.699000
+Baccarat Game Z-A changes to A-Z for sorting:
+Baccarat Game Finished Testing: 
+2019-04-09 10:45:34.685000
+Total Number of images in Blackjack games = 31
+BlackJack Game Started: 
+2019-04-09 10:49:22.076000
+Total Number of images in Blackjack games = 31
+Info: Number of games in this(BlackJack) page equals: 20
+Total Number of images in Blackjack games = 31
+BlackJack Game Finished Testing: 
+2019-04-09 10:49:39.694000
+Poker Game Started: 
+2019-04-09 10:52:20.095000
+Info: Number of games in this(OtherGames) page equals: 7
+Poker Game Started: 
+2019-04-09 11:00:44.168000
+Info: Number of games in this(Poker) page equals: 7
+Liveroulette Game Started: 
+2019-04-09 11:05:20.492000
+Info: Number of games in this(Roulette) page equals: 17
+In Live Others Games Page images=15
+Info: Number of games in this(Live Other Games) page equals: 4
+Info Game name is:Dragon Tiger
+Info Game description is:Super-Fast, simple game that Baccarat enthusiasts will love - Game rounds take just 25 seconds!
+Info Live Play now is displayed:Super-Fast, simple game that Baccarat enthusiasts will love - Game rounds take just 25 seconds!
+Info Other Games Page verify landing page i= 1
+Info Game name is:Dream Catcher
+Info Game description is:Dream Catcher is an unequal game of chance played using a super-sized, verti cally mounted spinning wheel. It is based on the large vertical wheels often seen in land-based casinos. The wheels go by various names such as Big Six, Big Wheel, Money Wheel or simply Money Wheel.
+Info Live Play now is displayed:Dream Catcher is an unequal game of chance played using a super-sized, verti cally mounted spinning wheel. It is based on the large vertical wheels often seen in land-based casinos. The wheels go by various names such as Big Six, Big Wheel, Money Wheel or simply Money Wheel.
+Info Other Games Page verify landing page i= 2
+Info Game name is:Dream Catcher
+Info Game description is:Dream Catcher is an unequal game of chance played using a super-sized, verti cally mounted spinning wheel. It is based on the large vertical wheels often seen in land-based casinos. The wheels go by various names such as Big Six, Big Wheel, Money Wheel or simply Money Wheel.
+Info Live Play now is displayed:Dream Catcher is an unequal game of chance played using a super-sized, verti cally mounted spinning wheel. It is based on the large vertical wheels often seen in land-based casinos. The wheels go by various names such as Big Six, Big Wheel, Money Wheel or simply Money Wheel.
+Info Other Games Page verify landing page i= 3
+Info Game name is:Live Football Studio
+Info Game description is:Welcome to Live Football Studio! Evolution Live Football Studio is a super-fast, simple game with the focus on football. Just two cards are dealt, the Home and Away cards, both face-up. You simply bet on whether Home or Away will be the higher card, or whether the deal will result in a Draw.
+Info Live Play now is displayed:Welcome to Live Football Studio! Evolution Live Football Studio is a super-fast, simple game with the focus on football. Just two cards are dealt, the Home and Away cards, both face-up. You simply bet on whether Home or Away will be the higher card, or whether the deal will result in a Draw.
+Info Other Games Page verify landing page i= 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info VerifyDreamCatcherResultsUpdateDuringNavigationOfTheLobby
+info: Pass the test: VerifyDreamCatcherResultsUpdateDuringNavigationOfTheLobby
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(Live Other Games) page equals: 4
+Info Successful Log in!
+Info Successful Log in!
+Info Successful Log in!
+Info Successful Log in!
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(OtherGames) page equals: 4
+In Live Others Games Page images=15
+In Live Others Games Page images=15
+Other Games A-Z changes to Z-A for sorting:
+In Live Others Games Page images=15
+Other Games A-Z existing for sorting:
+In Live Others Games Page images=15
+Other Games Stake Size text is existing:
+In Live Others Games Page images=15
+Other Games Stake Size text is existing:
+In Live Others Games Page images=15
+Other Games Z-A changes to A-Z for sorting:
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Other Games Dealer name existing of i= 1
+Info Other Games Dealer name existing of i= 2
+Info Other Games Dealer name existing of i= 3
+Info Other Games Dealer name existing of i= 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Other Games Existing min-max of  i= 1
+Info Other Games Existing min-max of  i= 2
+Info Other Games Existing min-max of  i= 3
+Info Other Games Existing min-max of  i= 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Other Games exsisting log of i= 1
+Info Other Games exsisting log of i= 2
+Info Other Games exsisting log of i= 3
+Info Other Games exsisting log of i= 4
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Ok, for GameTile Display Seat available: Element=1
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Ok, for GameTile Display Seat available: Element=1
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Ok, for GameTile Display Seat available: Element=1
+In Live Others Games Page images=15
+Info: Number of games in this(Other Games) page equals: 4
+Info Ok, for GameTile Display Seat available: Element=1
+Info Ok, for GameTile Display Seat available: Element=1
+Info Ok, for GameTile Display Seat available: Element=4
+Info Ok, for GameTile Display Seat available: Element=4

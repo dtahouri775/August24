@@ -1,0 +1,3 @@
+
+originalString= "'ABC'"
+print(originalString);

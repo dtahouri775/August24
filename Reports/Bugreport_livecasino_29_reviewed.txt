@@ -1,0 +1,11 @@
+Bug Live Black Jack Page: Game Descritpin is not available  game = 17 (Live Blackjack High Roller)
+Bug Live Black Jack Page: Dealer name is not there! game=4 (Blackjack E)
+
+Bug Live Poker Page:Dealer name is not there!  LiveDealername=1 (CHP CHAT DNT)
+
+Bug Live Roulette: Game Descritpin is not available!!, : element->12 Live Auto Roulette High Roller HTML5)
+
+Bug  Live Roulette: for Not availability recent game result of Roulette game: Element= 6 (Dual RO Chat DNT)
+Bug  Live Roulette: for Not availability recent game result of Roulette game: Element= 6 (Dual RO Chat DNT)
+Bug Live Roulette:  Dealer name is not there! (Make sure it it not auto Roulette): element-> 6(Dual RO Chat DNT)
+

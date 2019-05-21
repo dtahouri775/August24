@@ -1,0 +1,2 @@
+Bug  for Not availablityhe recent game result of others page game: Element=1
+Live others locator or livecasinoLocatortop is not accessable!!

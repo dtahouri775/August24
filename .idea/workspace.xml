@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyroulettetest.py" line="340" mnemonic="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a3d1ffa-6a05-4d47-a792-533e7ed6726f" name="Default" comment="October 31 try">
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/UIMapAdminPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/UIMapLiveTables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Pages/BasePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Pages/BaseTestCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/Pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestAdmin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestAdmin/testadminacessablity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestAdmin/testdreamcatherevoliveothergametest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestBonus/CreateBonusPlans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestBonus/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestBonus/testAssigneurBonus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasinoAuto/GamePlay/MousePosition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasinoAuto/GamePlay/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasinoAuto/Pages/AppendTofile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CurrentSprintTests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Locators/UIMapLiveCasino.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Locators/UIMapLiveCasino.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Pages/LiveBaccaratPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Pages/LiveBaccaratPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Pages/LiveBlackjackPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Pages/LiveBlackjackPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Pages/LiveCasinoPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Pages/LiveCasinoPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Pages/LiveOthersPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Pages/LiveOthersPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Pages/LivePokerPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Pages/LivePokerPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/Pages/LiveRoulettePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/Pages/LiveRoulettePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testPlayforFuntest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestCasino/testPlayforFuntest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testlivebaccarattest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivebaccarattest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testlivecasinomenutest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivecasinomenutest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testlivelobbyblackjacktest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyblackjacktest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testlivelobbypokertest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbypokertest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testlivelobbyroulettetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyroulettetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CasinoAuto/TestCasino/testliveotherstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testliveotherstest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - Nosetests_in_TestCasino.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Results - Nosetests_in_TestCasino.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FavoritesManager">
+    <favorites_list name="August24" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2954">
+              <caret line="190" column="45" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="45" />
+              <folding>
+                <element signature="e#52#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/BasePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="e#52#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="82" column="11" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/CreateBonusPlans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="43" />
+              <folding>
+                <element signature="e#52#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testAssigneurBonus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="92" column="34" selection-start-line="89" selection-start-column="16" selection-end-line="92" selection-end-column="34" />
+              <folding>
+                <element signature="e#52#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.fill_out_field</find>
+      <find>time.sleep(3</find>
+      <find>div.</find>
+      <find>next_b2</find>
+      <find>/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/div[2]/a</find>
+      <find>get</find>
+      <find>url</find>
+      <find>navi</find>
+      <find>country</find>
+      <find>for</find>
+      <find>v==1</find>
+      <find>rhs</find>
+      <find>logout</find>
+      <find>Country_Select</find>
+      <find>css</find>
+      <find>error</find>
+      <find>bug</find>
+      <find>/html/body/div[1]/form/div/table/thead/tr[2]/td[3]/div</find>
+      <find>fill_out_field</find>
+      <find>UiMa</find>
+      <find>password</find>
+      <find>assign</find>
+      <find>forde</find>
+      <find>self.fill_out_field(&quot;xpath&quot;, AdminHomePageMap['UserListEditbox']</find>
+      <find>'UserListEditbox'</find>
+      <find>tt</find>
+      <find>bonusPlan.coinValue</find>
+      <find>pname</find>
+      <find>AdminBonusInfoMap</find>
+      <find>cur</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CasinoAuto/Locators/UIMapCasinoPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/LiveCasinoPage.py" />
+        <option value="$PROJECT_DIR$/CASINOAPI/sampletest.py" />
+        <option value="$PROJECT_DIR$/CASINOAPI/calls.py" />
+        <option value="$PROJECT_DIR$/CASINOAPI/test_calls.py" />
+        <option value="$PROJECT_DIR$/CurrentSprintTests/LiveBaccarat.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/Bugreport_livecasino_18.txt" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/VideoPokerPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/TableGamesPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/PopularPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/SlotsPage.py" />
+        <option value="$PROJECT_DIR$/CurrentSprintTests/testlivelobbyblackjacktest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestCasino/testPlayforFuntest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/NewGamesPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/LiveOthersPage.py" />
+        <option value="$PROJECT_DIR$/CurrentSprintTests/testlivelobbypokertest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/LivePokerPage.py" />
+        <option value="$PROJECT_DIR$/CurrentSprintTests/testlivebaccarattest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/LiveRoulettePage.py" />
+        <option value="$PROJECT_DIR$/CurrentSprintTests/testlivelobbyroulettetest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/LiveBaccaratPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Pages/LiveBlackjackPage.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivebaccarattest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyblackjacktest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbypokertest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyroulettetest.py" />
+        <option value="$PROJECT_DIR$/CurrentSprintTests/testliveotherstest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testliveotherstest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Locators/UIMapLiveCasino.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/GamePlay/__init__.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/GamePlay/Temp.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/GamePlay/MousePosition.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/GamePlay/MouseIntercepts.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/GamePlay/VideoPoker.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/GamePlay/testVideoPokerPlaytest.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestAdmin/testdreamcatherevoliveothergametest.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/Constants.py" />
+        <option value="$PROJECT_DIR$/CasinoAuto/TestCasino/testaccessablitycasinotest.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testAllCurrencyUsersCreate.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Constants.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Pages/BasePage.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapAdminPage.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testAssigneurBonus.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/UIMapBonusPlan.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestBonus/CreateBonusPlans.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2896" />
+    <option name="y" value="14" />
+    <option name="width" value="767" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminAuto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="TestBonus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="TestBonus" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateBonusPlans.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="TestBonus" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateBonusPlans.py" type="8704e2dd:PyFileNode" />
+              <item name="testCreateBonusPlans" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="August24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="August24" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="TestRegisterUsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CasinoAuto/TestCasino" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\AdminAuto\Locators" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\CasinoAuto\TestLiveCasino" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\CasinoAuto\Pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\AdminAuto" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\CasinoAuto\GamePlay" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\AdminAuto\Pages" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\CurrentSprintTests" />
+      <recent name="C:\Users\Daryoush\PycharmProjects\August24\AdminAuto\TestAdmin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers">
+    <configuration type="PythonConfigurationType" factoryName="Python">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CasinoAuto/Pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="August24" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="testlivelobbyblackjacktest" type="PythonConfigurationType" factoryName="Python">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CasinoAuto" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CasinoAuto/TestCasino" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for CasinoAuto.TestLiveCasino.testlivelobbypokertest.livepokertest.testLandingpageGame_name_provider_Rules_DescriptionTest" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CasinoAuto/TestCasino" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CasinoAuto.TestLiveCasino.testlivelobbypokertest.livepokertest.testLandingpageGame_name_provider_Rules_DescriptionTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for testAssigneurBonus.testbonustest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testAssigneurBonus.testbonustest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for testAssigneurBonus.testbonustest.testVerify_a_User_can_be_assigned_allkindof_Gbp_bonuses" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testAssigneurBonus.testbonustest.testVerify_a_User_can_be_assigned_allkindof_Gbp_bonuses&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in testAssigneurBonus.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AdminAuto/TestBonus/testAssigneurBonus.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests" type="tests" factoryName="Nosetests" editBeforeRun="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CasinoAuto/TestCasino" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExchangeSanityAuto/TestExchange" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.testlivelobbyblackjacktest" />
+      <item itemvalue="Python tests.Nosetests" />
+      <item itemvalue="Python tests.Nosetests for CasinoAuto.TestLiveCasino.testlivelobbypokertest.livepokertest.testLandingpageGame_name_provider_Rules_DescriptionTest" />
+      <item itemvalue="Python tests.Nosetests in testAssigneurBonus.py" />
+      <item itemvalue="Python tests.Nosetests for testAssigneurBonus.testbonustest" />
+      <item itemvalue="Python tests.Nosetests for testAssigneurBonus.testbonustest.testVerify_a_User_can_be_assigned_allkindof_Gbp_bonuses" />
+      <item itemvalue="Python tests.Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses" />
+      <item itemvalue="Python tests.Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" />
+        <item itemvalue="Python tests.Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses" />
+        <item itemvalue="Python tests.Nosetests for testAssigneurBonus.testbonustest.testVerify_a_User_can_be_assigned_allkindof_Gbp_bonuses" />
+        <item itemvalue="Python tests.Nosetests for testAssigneurBonus.testbonustest" />
+        <item itemvalue="Python tests.Nosetests in testAssigneurBonus.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a3d1ffa-6a05-4d47-a792-533e7ed6726f" name="Default" comment="" />
+      <created>1535135936363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535135936363</updated>
+    </task>
+    <task id="LOCAL-00001" summary="October 31 try">
+      <created>1541003873325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541003873325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="October 31 try">
+      <created>1545962438533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545962438533</updated>
+    </task>
+    <task id="LOCAL-00003" summary="October 31 try">
+      <created>1548370103505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548370103505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 15h 55m 20s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 15h 57m 52s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 15h 59m 22s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 16h 02m 21s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 16h 04m 24s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 16h 06m 11s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 16h 09m 09s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 16h 11m 27s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 16h 14m 45s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_CreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.16 at 17h 07m 59s.xml">
+      <configuration name="Nosetests for CreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1186" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info x="2733" y="603" width="474" height="245" id="Favorites" order="0" sideWeight="0.5174538" side_tool="true" type="WINDOWED" weight="0.32421342" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4825462" visible="true" weight="0.2792413" />
+      <window_info id="Structure" order="2" sideWeight="0.4954023" weight="0.21771978" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953465" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2583096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33238366" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328585" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.328585" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.328585" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.39791074" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="October 31 try" />
+    <option name="LAST_COMMIT_MESSAGE" value="October 31 try" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto2/TestExchange/populargame_editmultiple_offer_test.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/TestExchange/populargame_editoffer_eur_test.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/TestExchange/populargame_editoffer_eur_test.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/TestExchange/populargame_editoffer_eur_test.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/Pages/MainPage.py</url>
+          <line>994</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/TestExchange/testpopularmarket_layoffer_test.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/TestExchange/testpopularmarket_matchoffer_test.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/Pages/JackPotsPage.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/TestCasino/testnewgamepagetest.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/Pages/JackPotsPage.py</url>
+          <line>238</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/Pages/JackPotsPage.py</url>
+          <line>231</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/TestCasino/testslotspagetest.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/TestCasino/testvideopokergamepagetest.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/TestCasino/testPlayforFuntest.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/Pages/MainPage.py</url>
+          <line>1191</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ExchangeSanityAuto/Pages/MainPage.py</url>
+          <line>1171</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AdminAuto/TestAdmin/testdreamcatherevoliveothergametest.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyblackjacktest.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/Pages/LiveBlackjackPage.py</url>
+          <line>421</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testliveotherstest.py</url>
+          <line>298</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AdminAuto/TestBonus/CreateBonusPlans.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="572" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>by</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CurrentSprintTests/testlivebaccarattest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="217" column="81" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="217" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/ci_setup_tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/LiveBaccaratPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/JackPotsPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/HomePageM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/TestCasino/testcasinotabtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/VideoPokerPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="263" column="17" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyroulettetest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/nose/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/LiveOthersPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="730" column="76" selection-start-line="730" selection-start-column="73" selection-end-line="730" selection-end-column="76" />
+          <folding>
+            <element signature="e#103#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrentSprintTests/testliveotherstest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="189" column="38" lean-forward="true" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+          <folding>
+            <element signature="e#83#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/TestCasino/testvideopokergamepagetest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="61" column="70" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="70" />
+          <folding>
+            <element signature="e#51#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Locators/UIMapHomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/TableGamesPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="271" column="29" lean-forward="true" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Locators/UIMapCasinoPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdmin/testdreamcatherevoliveothergametest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/MatchBookLoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/CasinoPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="135" column="31" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/TestCasino/testmatchbooklogintest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testAllCurrencyUsersCreate.py" />
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAssigneurBonus.py" />
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/BaseTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdmin/testadminacessablity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestRegisterUsers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdmin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/TestCasino/testPlayforFuntest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapLiveTables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1221" selection-start-line="1221" selection-end-line="1221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapAdminPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - Nosetests_in_TestCasino_(1).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#52#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CasinoAuto/Pages/LiveBlackjackPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="683" column="18" lean-forward="true" selection-start-line="682" selection-start-column="7" selection-end-line="683" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="e#1#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2954">
+          <caret line="190" column="45" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="45" />
+          <folding>
+            <element signature="e#52#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testAssigneurBonus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="92" column="34" selection-start-line="89" selection-start-column="16" selection-end-line="92" selection-end-column="34" />
+          <folding>
+            <element signature="e#52#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/CreateBonusPlans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#52#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
