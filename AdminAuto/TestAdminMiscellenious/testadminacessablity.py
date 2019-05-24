@@ -5,7 +5,7 @@ Created on Feb06 , 2019
 '''
 import unittest
 import nose
-import time
+#import time
 from AdminAuto.Pages.BaseTestCase import BaseTestCase
 from AdminAuto.Constants import Admin_Constants
 from AdminAuto.Pages.HomePageM import HomePageM

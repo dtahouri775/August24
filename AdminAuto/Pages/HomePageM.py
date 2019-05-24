@@ -6,7 +6,7 @@ Created on Feb06 , 2019
 
 from AdminAuto.Locators.UIMapAdminPage import AdminHomePageMap
 from AdminAuto.Locators.UIMapAdminPage import LogInPageMap
-from AdminAuto.Locators.AdminMapBonusLinks import AdminBonusLinkMap
+#from AdminAuto.Locators.AdminMapBonusLinks import AdminBonusLinkMap
 from AdminAuto.Locators.UIMapLiveTables import AdminTableID
 from AdminAuto.Locators.UIMapLiveTables import AdminGameID
 from AdminAuto.Locators.UIMapLiveTables import AdminTableName

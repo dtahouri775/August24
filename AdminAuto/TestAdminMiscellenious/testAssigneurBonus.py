@@ -10,7 +10,7 @@ import time
 from AdminAuto.Pages.BaseTestCase import BaseTestCase
 from AdminAuto.Constants import Admin_Constants
 from AdminAuto.Pages.HomePageM import HomePageM
-from AdminAuto.Locators.AdminMapBonusLinks import AdminBonusLinkMap
+#from AdminAuto.Locators.AdminMapBonusLinks import AdminBonusLinkMap
 
 class testbonustest(BaseTestCase,unittest.TestCase):
 
