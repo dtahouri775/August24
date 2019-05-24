@@ -1,6 +1,7 @@
 
 from BasePage                import BasePage
 from AdminAuto.Locators.UIMapRegistration import RegistrationPageMap
+from AdminAuto.Locators.UIMapRegistration import UILogInMap
 from BasePage                import IncorrectPageException
 import time
 class RegisterUserPages(BasePage):
@@ -142,10 +143,38 @@ class RegisterUserPages(BasePage):
         element2 = self.find_element("cssSelector", RegistrationPageMap["logout"])
         element2.click()
         time.sleep(2)
+    def login(self,username,password):
+        self.wait_for_element_visibility(10, "cssSelector", RegistrationPageMap["LOGIN1"])
+        element2 = self.find_element("cssSelector", RegistrationPageMap["LOGIN1"])
+        element2.click()
 
+        self.fill_out_field("xpath",
+                            UILogInMap['UserNameFieldXpath'],
+                            username
+                            )
+        self.fill_out_field("xpath",
+                            UILogInMap['PasswordFieldXpath'],
+                            password
+                            )
+        self.click(10,
+                   "xpath",
+                   UILogInMap['LoginButtonXpath'],
+                   )
 
+        try:
+            time.sleep(3)
+            self.click(10, "xpath", RegistrationPageMap['CloseDepositBox'])
+            time.sleep(3)
+        except:
+            print("CloseDepositBox was not available")
 
-
+    def verifybonsuicon(self,username):
+        try:
+            self.wait_for_element_visibility(10, "cssSelector", RegistrationPageMap["BonusIcon"])
+            element2 = self.find_element("cssSelector", RegistrationPageMap["BonusIcon"])
+            element2.click()
+        except:
+            raise Exception("This user has not be assigned bonus:  "+username)
 
 
 

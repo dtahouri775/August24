@@ -28,7 +28,7 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
         for c in range(1, 7):  # 1:eur  2:aud  3:hkd 4:usd 5:cad 6:gbp
             for bt in range(1, 8):#Bonus Type=1,2,3,4,5,6,7 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit, Held-Fund)
                 pname=""
-                pname = pname+"AUTOMay16_5"  # Plan Name:creating for example australian dollar bonus plan
+                pname = pname+"AUTOMay21"  # Plan Name:creating for example australian dollar bonus plan
                 tt = bt # Trigger Type=1,2,3,4,5,6,7 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit, Held-Fund).
                 pr=0#Priority
                 cur=c#(1: Euro), (2: AUD),(3: HKD),(4: USD),(5: CAD),(6: GBP)
@@ -70,7 +70,7 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                 if(c==1 and bt==1):#only one time
                     element = HomePageM(self.driver)
 
-                sdate="05/16/2019"
+                sdate="05/21/2019"
                 edate="05/01/2029"
                 exdays=1
                 amount=10
@@ -83,12 +83,6 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                 ips=15#Included Platforms Status Check All 15(1111), uucheck all zero(0000)
                 igs=1#Included Games 1: Check All, 2: Unchcek All 3: Expan
 
-                plassign=1 #if zero means only creat bonus plan 1 means assing to player too
-                playername=""
-                #playername = playername + "dysqlb"
-                if(plassign==1):
-                    playername = playername +"dysqlb"+curtype+str(1)#first player in
-                time.sleep(3)
                 url="linkcreatebonus"
                 element.gotoselectedbonus(url)
                 result=element.createbonusplan(pname,pr,cur,tt,st,sdate,edate,exd,amount,rr,mbl,ucr,fdg,fmg,ips,igs)
@@ -96,6 +90,15 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                     print("Bonus created")
                 else:
                     print("Fail: Bonus is not created!")
+
+                plassign = 1  # if zero means only creat bonus plan 1 means assing to player too
+                playername = ""
+                # Enter players info here!!
+                if (plassign == 1):
+                    playername = playername + "May21" + curtype + str(bt)  # first player in
+                time.sleep(3)
+                if(bt==7):#No need to assign held fund bonus
+                    continue
                 text=element.assignbonus(playername,tt)
                 print(text)
                 if (text[:15] == 'Users not found'):

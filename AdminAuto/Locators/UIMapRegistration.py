@@ -33,7 +33,7 @@ RegistrationPageMap = dict(
     Reg_Currency_hkd="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/div[1]/form/div/div/div[5]/div[1]/div/div/div[2]/span/div/div[1]/div/div[6]/div",
 
     BonusCode="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/div[1]/form/div/div/div[5]/div[2]/div/input",
-
+    BonusIcon=".bonus-toggle-icon",
     # Xpath for Phone number edit box 5 digit at least
     Phone="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/div[1]/form/div/div/div[6]/div/input",
     # css for next button
@@ -118,3 +118,20 @@ LogInPageMap = dict(
                       LoginButton="#submit",
 )
 
+UILogInMap = dict(  PlayforFun="[data-hook='casino-landing-page-play-for-fun']",
+
+                      LoginButtonTop="[data-hook='login-top']",
+
+                      LoginLandingPage1="[data-hook='casino-landing-page-betlimit1']",
+                      LoginLandingPage2="[data-hook='casino-landing-page-betlimit2']",
+                      LoginLandingPage3="[data-hook='casino-landing-page-betlimit3']",
+                      LoginLandingPage4="[data-hook='casino-landing-page-betlimit4']",
+                      LivePlaynow ="[data-hook='live-casino-play-now']",
+                      LogInToMatchbookTextXpath="/html/body/div[3]/div/div/div/div[1]/span",#will modify when data hook is available
+                      UserNameFieldXpath="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/form/div[1]/div[1]/div/input",#will modify when data hook av
+                      PasswordFieldXpath="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/form/div[1]/div[2]/div/input",#will modify when data hook av
+                      LoginButtonXpath="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/form/div[2]/a[1]",#will modify when data hook av
+                      ForgotPasswordXpath= "/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/form/div[2]/a[2]",#will modify when data hook av
+                      JoinNowXpath="//*[@id='mb-join-now-button']",#will modify when data hook is available
+                      BetNowButtonXpath="//*[@id='mb-join-now-right-image']"#will modify when data hook is available
+                  )

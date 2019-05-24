@@ -23,22 +23,22 @@ class createusertest(BaseTestCase,unittest.TestCase):
         password = "Password1"
         element = RegisterUserPages(self.driver)
         for c in range(1, 7):  # 1:usd  2:eur  3:gbp 4:cad 5:aud 6:hkd
-            for u in range(5, 8):#number of users
+            for u in range(1, 8):#number of users for seven bonus types e.g. regular, Match,Freespin(Mb,NetEnt, RT), Deposit, HF
                 #if(c<3 ):
                  #   continue
                 if(c==1):
-                    username = "mysqlb" +"usd"+str(u)
+                    username = "May21" +"usd"+str(u)
                 email = username+"@yahoo.com"
                 if (c == 2):
-                    username = "mysqlb" + "eur"+str(u)
+                    username = "May21" + "eur"+str(u)
                 if (c == 3):
-                    username = "mysqlb" + "gbp"+str(u)
+                    username = "May21" + "gbp"+str(u)
                 if (c == 4):
-                    username = "mysqlb" + "cad"+str(u)
+                    username = "May21" + "cad"+str(u)
                 if (c == 5):
-                    username = "mysqlb" + "aud"+str(u)
+                    username = "May21" + "aud"+str(u)
                 if (c == 6):
-                    username = "mysqlb" + "hkd"+str(u)
+                    username = "May21" + "hkd"+str(u)
 
                 email = username + "@yahoo.com"
                 element.register(c,username,email,password)

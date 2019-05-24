@@ -327,6 +327,8 @@ class HomePageM(BasePage):
                 self.click(10, "name", AdminBonusCreationMap["claimamounthf"])
                 text = "1,5,10"
                 self.fill_out_field("name", AdminBonusCreationMap['claimamounthf'], text)
+                #openToAll
+                self.click(10, "name", AdminBonusCreationMap["openToAll"])
 
             self.click(10, "xpath", AdminBonusCreationMap["savebutton"])
             time.sleep(2)

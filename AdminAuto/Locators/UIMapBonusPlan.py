@@ -43,6 +43,7 @@ AdminBonusCreationMap = dict(
     redtigerckbox="/html/body/div[1]/div/form/table/tbody/tr[30]/td[2]/div/table/tbody/tr[4]/td[1]/input",
     includegamescheckall="/html/body/div[1]/div/form/table/tbody/tr[31]/td[2]/input[1]",
     includegamesuncheckall="/html/body/div[1]/div/form/table/tbody/tr[31]/td[2]/input[2]",
+    openToAll="openToAll",
     includegamesexpand="//*[@id='expand']",
     notes="//*[@id='notes']",
     bonustitle="/html/body/div[1]/div/form/table/tbody/tr[36]/td[2]/input",
