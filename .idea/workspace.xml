@@ -4,8 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/CasinoAuto/TestLiveCasino/testlivelobbyroulettetest.py" line="340" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a3d1ffa-6a05-4d47-a792-533e7ed6726f" name="Default" comment="May 24">
-      <change afterPath="$PROJECT_DIR$/AdminAuto/Locators/delteme.py" afterDir="false" />
+    <list default="true" id="2a3d1ffa-6a05-4d47-a792-533e7ed6726f" name="Default" comment="May 28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/delteme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="104" column="46" lean-forward="true" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+            <state relative-caret-position="85">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -554,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559079038997</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="May 28">
+      <created>1559081040913</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559081040913</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -646,7 +652,8 @@
     </ignored-roots>
     <MESSAGE value="October 31 try" />
     <MESSAGE value="May 24" />
-    <option name="LAST_COMMIT_MESSAGE" value="May 24" />
+    <MESSAGE value="May 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="May 28" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1124,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/delteme.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="104" column="46" lean-forward="true" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
