@@ -128,13 +128,14 @@ class HomePageM(BasePage):
 
     def assignbonus(self,pname,i):
         try:
-            try:
-                tempng1="AssignArrow"
-                self.wait_for_element_visibility(10, "xpath",AdminHomePageMap[tempng1])
-                self.find_element("xpath", AdminHomePageMap[tempng1]).click()
-            except:
-                self.click(10, "xpath", AdminBonusCreationMap["assignplayerbutton"])
-                time.sleep(3)
+            if(i!=1000):
+                try:
+                    tempng1="AssignArrow"
+                    self.wait_for_element_visibility(10, "xpath",AdminHomePageMap[tempng1])
+                    self.find_element("xpath", AdminHomePageMap[tempng1]).click()
+                except:
+                    self.click(10, "xpath", AdminBonusCreationMap["assignplayerbutton"])
+                    time.sleep(3)
 
             self.wait_for_element_visibility(10, "xpath", AdminHomePageMap['UserListEditbox'])
             self.find_element("xpath", AdminHomePageMap['UserListEditbox'])

@@ -35,13 +35,13 @@ class createusertest(BaseTestCase,unittest.TestCase):
                     if (c == 2):
                         username = Admin_Dynamic['globalname'] + "eur"+str(u)
                     if (c == 3):
-                        username = "May21" + "gbp"+str(u)
+                        username = Admin_Dynamic['globalname'] + "gbp"+str(u)
                     if (c == 4):
                         username = Admin_Dynamic['globalname'] + "cad"+str(u)
                     if (c == 5):
                         username = Admin_Dynamic['globalname'] + "aud"+str(u)
-                    if (c == 6):
-                        username = Admin_Dynamic['globalname']+str(u)
+                    if (c == 7):
+                        username = Admin_Dynamic['globalname']++ "hkd"+str(u)
 
                     email = username + "@yahoo.com"
                     element.register(c,username,email,password)

@@ -1,5 +1,11 @@
 AdminBonusCreationMap = dict(
     linkcreatebonus="http://dev06.xcl.ie:20194/j/bonus/CreateBonusPlan.action",
+    linkEur1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1185",
+    linkAud1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1420",
+    linkUsd1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1422",
+    linkHkd1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1421",
+    linkGbp1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1424",
+    linkCad1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1423",
     pnamebox="/html/body/div[1]/div/form/table/tbody/tr[2]/td[2]/input",
     periority="/html/body/div[1]/div/form/table/tbody/tr[3]/td[2]/input",
     trigertype1 = "/html/body/div[1]/div/form/table/tbody/tr[4]/td[2]/select/option[1]",#Regular

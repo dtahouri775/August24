@@ -16,5 +16,10 @@ linkGbpRegular="http://dev06.xcl.ie:20194/j/bonus/ListBonusPlans.action?maxRows=
     linkGbpDeposit0 = "http://dev06.xcl.ie:20194/j/bonus/ListBonusPlans.action?maxRows=15&bonusPlan_tr_=true&bonusPlan_p_=1&bonusPlan_mr_=15&bonusPlan_f_bonusPlanName=linkGbpDeposit0",
     linkGbpHeldFundsAll = "http://dev06.xcl.ie:20194/j/bonus/ListBonusPlans.action?maxRows=15&bonusPlan_tr_=true&bonusPlan_p_=1&bonusPlan_mr_=15&bonusPlan_f_bonusPlanName=linkGbpHeldFundsAll",
     linkGbpHeldFundsOne = "http://dev06.xcl.ie:20194/j/bonus/ListBonusPlans.action?maxRows=15&bonusPlan_tr_=true&bonusPlan_p_=1&bonusPlan_mr_=15&bonusPlan_f_bonusPlanName=linkEuoHeldFundsOne",
-
+    linkEur1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1185",
+    linkAud1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1420",
+    linkUsd1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1422",
+    linkHkd1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1421",
+    linkGbp1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1424",
+    linkCad1M="http://dev06.xcl.ie:20194/j/bonus/AssignBonusBatch.action?bonusPlanId=1423",
        )

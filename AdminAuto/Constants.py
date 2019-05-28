@@ -14,13 +14,14 @@ Admin_Constants = dict(Browser           = "firefox",
 
                         )
 Admin_Dynamic = dict(
-                        globalname="May21",#Based on this name users created, bonus created, bonus assigned
+                        globalname="May29",#Based on this name users created, bonus created, bonus assigned
                         uipassword="Password1",
                         createallbonuses="1",#zero mean no crealtion of all bonuses
                         createallusers="1",#zero mean no crealtion of all users
                         CasinoClassicRedDogGameLink="https://dev06.xcl.ie/casino/play/PL49/T0012?limit=0"
 
                        )
+
 
 class LocatorMode:
  

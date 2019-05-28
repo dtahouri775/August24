@@ -2,6 +2,7 @@
 from BasePage                import BasePage
 from AdminAuto.Locators.UIMapRegistration import RegistrationPageMap
 from AdminAuto.Locators.UIMapRegistration import UILogInMap
+from AdminAuto.Locators.UIMapPromotionCasino import UIpromotion
 from BasePage                import IncorrectPageException
 import time
 class RegisterUserPages(BasePage):
@@ -177,7 +178,16 @@ class RegisterUserPages(BasePage):
             raise Exception("This user has not be assigned bonus:  "+username)
 
 
-
+    def verifexistingbounstitle(self,bonustitle):
+        print("chacking for existance of assigned bonus: "+bonustitle)
+        try:
+            self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink1"])
+            element2 = self.find_element("cssSelector", UIpromotion["Bonuslink1"])
+            btitle=element2.text
+            print("btitle = "+btitle)
+            element2.click()
+        except:
+            raise Exception("This bonus Tiltle is not existing:  " )
 
 
 

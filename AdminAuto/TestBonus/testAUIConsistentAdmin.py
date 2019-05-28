@@ -69,10 +69,30 @@ class uiconsitentadmin(BaseTestCase, unittest.TestCase):
                    curtype = curtype + 'cad'
                if (cur == 6):
                    curtype = curtype + 'gbp'
+
                username=Admin_Dynamic['globalname']+curtype+str(bt)
                password=Admin_Dynamic['uipassword']
                page_obj.login(username,password)
+               trigertype=""
+               if (bt == 1):
+                   trigertype = trigertype + 'Regular'
+               if (bt == 2):
+                   trigertype = trigertype + 'Match'
+               if (bt == 3):
+                   trigertype = trigertype + 'MBFS'
+               if (bt == 4):
+                   trigertype = trigertype + 'NTFS'
+               if (bt == 5):
+                   trigertype = trigertype + 'RTFS'
+               if (bt == 6):
+                   trigertype = trigertype + 'Deposit'
+               if (bt == 7):
+                   trigertype = trigertype + 'HF'
+               bonusname="Auto"+Admin_Dynamic['globalname']+curtype+trigertype+str(bt)
                page_obj.verifybonsuicon(username)
+               time.sleep(2)
+               page_obj.verifexistingbounstitle(bonusname)
+
                time.sleep(2)
                page_obj.logout()
                time.sleep(10)
