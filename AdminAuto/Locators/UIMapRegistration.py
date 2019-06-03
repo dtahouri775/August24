@@ -4,7 +4,7 @@ Created on April30 , 2019
 @author: Daryoush
 '''
 RegistrationPageMap = dict(
-
+    Nothanksbutton="[data-hook='no-thanks']",
     LOGIN1="[data-hook='login-top']",
     Join= "[data-hook='loginjoinnow']",
 

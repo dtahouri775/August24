@@ -75,10 +75,10 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                     sdate="05/21/2019"
                     edate="05/01/2029"
                     exdays=1
-                    amount=10
+                    amount=25
                     exd=1
-                    rr=1#Rollover Requirement
-                    mbl=2#Max Bet Limit
+                    rr=0#Rollover Requirement
+                    mbl=5#Max Bet Limit
                     ucr=1#Use Contribution Rate checked, 0 means unchecked
                     fdg=1#for Desktop games checked, 0 means unchecked
                     fmg=1#for Mobile gameschecked, 0 means unchecked

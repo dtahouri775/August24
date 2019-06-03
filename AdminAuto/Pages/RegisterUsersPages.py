@@ -189,8 +189,14 @@ class RegisterUserPages(BasePage):
         except:
             raise Exception("This bonus Tiltle is not existing:  " )
 
-
-
+    def nothanks(self):
+        try:
+            element3 = self.find_element("cssSelector", RegistrationPageMap["Nothanksbutton"])
+            print("Info No thanks button is found")
+            element3.click()
+            print("Info No thanks button is clicked")
+        except:
+            print "Info No thanks button is not there to cause bug"
 
 
 

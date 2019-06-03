@@ -1,3 +1,4 @@
+#test June 3rd
 AdminBonusLinkMap = dict(
     linkEuroRegular="http://dev06.xcl.ie:20194/j/bonus/ListBonusPlans.action?maxRows=15&bonusPlan_tr_=true&bonusPlan_p_=1&bonusPlan_mr_=15&bonusPlan_f_bonusPlanName=linkEuroRegular",
     linkEuroMatch="http://dev06.xcl.ie:20194/j/bonus/ListBonusPlans.action?maxRows=15&bonusPlan_tr_=true&bonusPlan_p_=1&bonusPlan_mr_=15&bonusPlan_f_bonusPlanName=linkEuroMatch",

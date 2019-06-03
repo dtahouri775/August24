@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2a3d1ffa-6a05-4d47-a792-533e7ed6726f" name="Default" comment="May 28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminAuto/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdminAuto/Constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapAdminPage.py">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssigneurBonus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="314">
+              <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
               <folding>
                 <element signature="e#52#67#0" expanded="true" />
               </folding>
@@ -44,46 +41,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="483">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#52#114#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapPromotionCasino.py">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testAUIConsistentAdmin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="584">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#63#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" lean-forward="true" selection-end-line="137" />
+            <state relative-caret-position="272">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            <state relative-caret-position="322">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="e#54#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/delteme.py">
+        <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="476">
+              <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -171,30 +177,30 @@
         <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testAssigneurBonus.py" />
         <option value="$PROJECT_DIR$/CasinoAuto/Pages/HomePageM.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestBonus/UIConsistentAdmin.py" />
-        <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testUIConsistentAdmin.py" />
         <option value="$PROJECT_DIR$/AdminAuto/AdminConstants.py" />
         <option value="$PROJECT_DIR$/AdminAuto/Pages/BasePage.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testadminacessablity.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssignBonus.py" />
-        <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py" />
-        <option value="$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testAUIConsistentAdmin.py" />
         <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapPromotionCasino.py" />
-        <option value="$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py" />
         <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py" />
         <option value="$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py" />
-        <option value="$PROJECT_DIR$/AdminAuto/Constants.py" />
-        <option value="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestFundtoPlayer.py" />
         <option value="$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssigneurBonus.py" />
         <option value="$PROJECT_DIR$/AdminAuto/Locators/delteme.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Constants.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py" />
+        <option value="$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="471" />
-    <option name="y" value="81" />
+    <option name="x" value="2990" />
+    <option name="y" value="64" />
     <option name="width" value="767" />
     <option name="height" value="1038" />
   </component>
@@ -204,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +257,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for testAllCurrencyUsersCreate.createusertest.testcreateusers">
+  <component name="RunManager" selected="Python tests.Nosetests for testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers">
     <configuration type="PythonConfigurationType" factoryName="Python">
       <module name="August24" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -377,6 +383,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Nosetests for testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="August24" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -389,21 +410,6 @@
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="August24" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestBonus" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -422,7 +428,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for testUIConsistentAdmin.uiconsitentadmin.testvisiblitybonusymobl" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in testACreateBonusPlans.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="August24" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,8 +439,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testUIConsistentAdmin.uiconsitentadmin.testvisiblitybonusymobl&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in testAllCurrencyUsersCreate.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="August24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdminAuto/TestRegisterUsers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Nosetests" type="tests" factoryName="Nosetests" editBeforeRun="true" nameIsGenerated="true">
@@ -472,17 +493,19 @@
       <item itemvalue="Python tests.Nosetests for testAllCurrencyUsersCreate.createusertest.testcreateusers" />
       <item itemvalue="Python tests.Nosetests" />
       <item itemvalue="Python tests.Nosetests for CasinoAuto.TestLiveCasino.testlivelobbypokertest.livepokertest.testLandingpageGame_name_provider_Rules_DescriptionTest" />
-      <item itemvalue="Python tests.Nosetests for testUIConsistentAdmin.uiconsitentadmin.testvisiblitybonusymobl" />
-      <item itemvalue="Python tests.Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" />
-      <item itemvalue="Python tests.Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" />
       <item itemvalue="Python tests.Nosetests for TestFundtoPlayer.testfundplayer.testVerify_a_User_can_be_fund_Euro_1M" />
+      <item itemvalue="Python tests.Nosetests in testAllCurrencyUsersCreate.py" />
+      <item itemvalue="Python tests.Nosetests in testACreateBonusPlans.py" />
+      <item itemvalue="Python tests.Nosetests for testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" />
+      <item itemvalue="Python tests.Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Nosetests for TestFundtoPlayer.testfundplayer.testVerify_a_User_can_be_fund_Euro_1M" />
-        <item itemvalue="Python tests.Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" />
+        <item itemvalue="Python tests.Nosetests for testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" />
         <item itemvalue="Python tests.Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" />
-        <item itemvalue="Python tests.Nosetests for testUIConsistentAdmin.uiconsitentadmin.testvisiblitybonusymobl" />
+        <item itemvalue="Python tests.Nosetests in testAllCurrencyUsersCreate.py" />
+        <item itemvalue="Python tests.Nosetests in testACreateBonusPlans.py" />
+        <item itemvalue="Python tests.Nosetests for TestFundtoPlayer.testfundplayer.testVerify_a_User_can_be_fund_Euro_1M" />
       </list>
     </recent_temporary>
   </component>
@@ -567,39 +590,46 @@
       <option name="project" value="LOCAL" />
       <updated>1559083234049</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="May 28">
+      <created>1559087349698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559087349698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testbactivateassignedbonus - 2019.05.24 at 14h 37m 19s.xml">
-      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" configurationId="tests" />
+    <history-entry file="Nosetests_in_testAllCurrencyUsersCreate_py - 2019.05.29 at 15h 53m 36s.xml">
+      <configuration name="Nosetests in testAllCurrencyUsersCreate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testbactivateassignedbonus - 2019.05.24 at 14h 40m 44s.xml">
-      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" configurationId="tests" />
+    <history-entry file="Nosetests_in_testACreateBonusPlans_py - 2019.05.29 at 17h 04m 22s.xml">
+      <configuration name="Nosetests in testACreateBonusPlans.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testbactivateassignedbonus - 2019.05.24 at 14h 44m 35s.xml">
-      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" configurationId="tests" />
+    <history-entry file="Nosetests_in_testACreateBonusPlans_py - 2019.05.29 at 17h 42m 58s.xml">
+      <configuration name="Nosetests in testACreateBonusPlans.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testbactivateassignedbonus - 2019.05.24 at 14h 46m 41s.xml">
-      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" configurationId="tests" />
+    <history-entry file="Nosetests_in_testAllCurrencyUsersCreate_py - 2019.05.31 at 16h 56m 37s.xml">
+      <configuration name="Nosetests in testAllCurrencyUsersCreate.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testbactivateassignedbonus - 2019.05.24 at 15h 02m 55s.xml">
-      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testbactivateassignedbonus" configurationId="tests" />
+    <history-entry file="Nosetests_for_testACreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.05.31 at 17h 35m 50s.xml">
+      <configuration name="Nosetests for testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_TestFundtoPlayer_testfundplayer_testVerify_a_User_can_be_fund_Euro_1M - 2019.05.24 at 16h 25m 19s.xml">
-      <configuration name="Nosetests for TestFundtoPlayer.testfundplayer.testVerify_a_User_can_be_fund_Euro_1M" configurationId="tests" />
+    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testavisiblitybonusymobl - 2019.06.03 at 10h 21m 06s.xml">
+      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_TestFundtoPlayer_testfundplayer_testVerify_a_User_can_be_fund_Euro_1M - 2019.05.24 at 16h 26m 58s.xml">
-      <configuration name="Nosetests for TestFundtoPlayer.testfundplayer.testVerify_a_User_can_be_fund_Euro_1M" configurationId="tests" />
+    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testavisiblitybonusymobl - 2019.06.03 at 10h 32m 25s.xml">
+      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_TestFundtoPlayer_testfundplayer_testVerify_a_User_can_be_fund_Euro_1M - 2019.05.24 at 16h 29m 32s.xml">
-      <configuration name="Nosetests for TestFundtoPlayer.testfundplayer.testVerify_a_User_can_be_fund_Euro_1M" configurationId="tests" />
+    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testavisiblitybonusymobl - 2019.06.03 at 10h 33m 21s.xml">
+      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_testAllCurrencyUsersCreate_createusertest_testcreateusers - 2019.05.28 at 13h 18m 57s.xml">
-      <configuration name="Nosetests for testAllCurrencyUsersCreate.createusertest.testcreateusers" configurationId="tests" />
+    <history-entry file="Nosetests_for_testAUIConsistentAdmin_uiconsitentadmin_testavisiblitybonusymobl - 2019.06.03 at 10h 35m 37s.xml">
+      <configuration name="Nosetests for testAUIConsistentAdmin.uiconsitentadmin.testavisiblitybonusymobl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_testAllCurrencyUsersCreate_createusertest_testcreateusers - 2019.05.28 at 14h 11m 20s.xml">
-      <configuration name="Nosetests for testAllCurrencyUsersCreate.createusertest.testcreateusers" configurationId="tests" />
+    <history-entry file="Nosetests_for_testACreateBonusPlans_testCreateBonusPlans_testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers - 2019.06.03 at 10h 46m 14s.xml">
+      <configuration name="Nosetests for testACreateBonusPlans.testCreateBonusPlans.testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -612,15 +642,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info x="2733" y="603" width="474" height="245" id="Favorites" order="0" sideWeight="0.5174538" side_tool="true" type="WINDOWED" weight="0.32421342" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4825462" visible="true" weight="0.34773445" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4825462" visible="true" weight="0.26765016" />
       <window_info id="Structure" order="2" sideWeight="0.4954023" weight="0.21771978" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953465" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2583096" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33238366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2583096" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33238366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328585" />
@@ -765,14 +796,14 @@
           <option name="timeStamp" value="577" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AdminAuto/TestBonus/testAUIConsistentAdmin.py</url>
-          <line>75</line>
-          <option name="timeStamp" value="580" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/AdminAuto/TestFundtoPlayer.py</url>
           <line>36</line>
           <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AdminAuto/TestBonus/testAUIConsistentAdmin.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="585" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -794,9 +825,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -1006,12 +1034,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py">
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestFundtoPlayer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="59" column="34" selection-start-line="52" selection-start-column="20" selection-end-line="65" selection-end-column="54" />
+        <state relative-caret-position="254">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#52#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/delteme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapPromotionCasino.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssigneurBonus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#52#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapAdminPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestRegisterUsers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="193" column="75" selection-start-line="193" selection-start-column="75" selection-end-line="193" selection-end-column="75" />
+          <folding>
+            <element signature="e#1#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1023,40 +1109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/RegisterUsersPages.py">
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssignBonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
-          <folding>
-            <element signature="e#1#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testAUIConsistentAdmin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-          <folding>
-            <element signature="e#63#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-          <folding>
-            <element signature="e#52#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/TestFundtoPlayer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-16">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#52#67#0" expanded="true" />
           </folding>
@@ -1065,49 +1121,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminAuto/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminAuto/TestRegisterUsers/testAllCurrencyUsersCreate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="322">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#54#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssignBonus.py">
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testAUIConsistentAdmin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="584">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#52#67#0" expanded="true" />
+            <element signature="e#63#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapBonusPlan.py">
+    <entry file="file://$PROJECT_DIR$/AdminAuto/Pages/HomePageM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="483">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#52#114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapPromotionCasino.py">
+    <entry file="file://$PROJECT_DIR$/AdminAuto/TestBonus/testACreateBonusPlans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/TestAdminMiscellenious/testAssigneurBonus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="314">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
           <folding>
             <element signature="e#52#67#0" expanded="true" />
           </folding>
@@ -1116,29 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/AdminMapBonusLinks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapRegistration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" lean-forward="true" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/UIMapAdminPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminAuto/Locators/delteme.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="476">
+          <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
         </state>
       </provider>
     </entry>

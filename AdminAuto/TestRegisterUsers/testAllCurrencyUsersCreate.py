@@ -27,8 +27,10 @@ class createusertest(BaseTestCase,unittest.TestCase):
             element = RegisterUserPages(self.driver)
             for c in range(1, 7):  # 1:usd  2:eur  3:gbp 4:cad 5:aud 6:hkd
                 for u in range(1, 8):#number of users for seven bonus types e.g. regular, Match,Freespin(Mb,NetEnt, RT), Deposit, HF
-                    #if(c<3 ):
+
+                    #if(c<6 ):
                      #   continue
+                    element.nothanks()
                     if(c==1):
                         username = Admin_Dynamic['globalname'] +"usd"+str(u)
                     email = username+"@yahoo.com"
@@ -40,8 +42,8 @@ class createusertest(BaseTestCase,unittest.TestCase):
                         username = Admin_Dynamic['globalname'] + "cad"+str(u)
                     if (c == 5):
                         username = Admin_Dynamic['globalname'] + "aud"+str(u)
-                    if (c == 7):
-                        username = Admin_Dynamic['globalname']++ "hkd"+str(u)
+                    if (c == 6):
+                        username = Admin_Dynamic['globalname'] + "hkd"+str(u)
 
                     email = username + "@yahoo.com"
                     element.register(c,username,email,password)
@@ -49,7 +51,9 @@ class createusertest(BaseTestCase,unittest.TestCase):
                     self.navigate_to_page(Admin_Dynamic['CasinoClassicRedDogGameLink'])#user will appeare in dev06
                     time.sleep(3)
                     print("User Created: "+username)
+                    element.nothanks()
                     element.logout()
+                    element.nothanks()
         if (Admin_Dynamic['createallusers'] == "0"):
             print("Creation of all currency users is not requested")
 

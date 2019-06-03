@@ -14,7 +14,7 @@ Admin_Constants = dict(Browser           = "firefox",
 
                         )
 Admin_Dynamic = dict(
-                        globalname="May29",#Based on this name users created, bonus created, bonus assigned
+                        globalname="DJune1",#Based on this name users created, bonus created, bonus assigned
                         uipassword="Password1",
                         createallbonuses="1",#zero mean no crealtion of all bonuses
                         createallusers="1",#zero mean no crealtion of all users
