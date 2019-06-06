@@ -265,7 +265,7 @@ class HomePageM(BasePage):
             print("Maxbetlimit is filled!")
             if(tt==3):#MB free spins values
                 self.click(10, "name", AdminBonusInfoMap["coinvalue"])
-                cv = "4"
+                cv = "0.50"
                 self.fill_out_field("name", AdminBonusInfoMap['coinvalue'], cv)
                 time.sleep(1)
                 element=self.find_element("xpath", "/html/body/div[1]/div/form/table/tbody/tr[22]/td[2]/table/tbody/tr[2]/td[2]/input")
@@ -275,7 +275,7 @@ class HomePageM(BasePage):
                 self.fill_out_field("xpath", "/html/body/div[1]/div/form/table/tbody/tr[22]/td[2]/table/tbody/tr[2]/td[2]/input",bpl)
                 time.sleep(1)
                 self.click(10, "name", AdminBonusInfoMap["numberoflines"])
-                nl = "5"
+                nl = "20"
                 self.fill_out_field("name", AdminBonusInfoMap['numberoflines'], nl)
                 time.sleep(1)
 

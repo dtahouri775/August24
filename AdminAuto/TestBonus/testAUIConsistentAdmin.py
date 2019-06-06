@@ -28,6 +28,8 @@ class uiconsitentadmin(BaseTestCase, unittest.TestCase):
        page_obj = RegisterUserPages(self.driver)
        for c in range(1, 7):  # 1:eur  2:aud  3:hkd 4:usd 5:cad 6:gbp
            for bt in range(1, 7):  # Bonus Type=1,2,3,4,5,6 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit)
+               if(bt==1):#/debyg purpose only should by by passed once it is done!!
+                   continue
                cur = c  # (1: Euro), (2: AUD),(3: HKD),(4: USD),(5: CAD),(6: GBP)
                curtype = ""
                if (cur == 1):
@@ -55,6 +57,8 @@ class uiconsitentadmin(BaseTestCase, unittest.TestCase):
        page_obj = RegisterUserPages(self.driver)
        for c in range(1, 7):  # 1:eur  2:aud  3:hkd 4:usd 5:cad 6:gbp
            for bt in range(1, 7):  # Bonus Type=1,2,3,4,5,6 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit)
+               #if (bt < 2):  # /debyg purpose only should by by passed once it is done!!
+                #   continue
                cur = c  # (1: Euro), (2: AUD),(3: HKD),(4: USD),(5: CAD),(6: GBP)
                curtype = ""
                if (cur == 1):
@@ -88,10 +92,11 @@ class uiconsitentadmin(BaseTestCase, unittest.TestCase):
                    trigertype = trigertype + 'Deposit'
                if (bt == 7):
                    trigertype = trigertype + 'HF'
-               bonusname="Auto"+Admin_Dynamic['globalname']+curtype+trigertype+str(bt)
+               bonusname="Auto"+Admin_Dynamic['globalname']+curtype+trigertype+str(1)
                page_obj.verifybonsuicon(username)
                time.sleep(2)
                page_obj.verifexistingbounstitle(bonusname)
+               page_obj.claimassignedBonus()
 
                time.sleep(2)
                page_obj.logout()

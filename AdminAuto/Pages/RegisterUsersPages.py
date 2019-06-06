@@ -180,14 +180,87 @@ class RegisterUserPages(BasePage):
 
     def verifexistingbounstitle(self,bonustitle):
         print("chacking for existance of assigned bonus: "+bonustitle)
-        try:
+        bonustitle="Bonus Title: "+bonustitle
+        try:#most of the time link1 is the answer, I will put in for loop to testify unlimited links
             self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink1"])
             element2 = self.find_element("cssSelector", UIpromotion["Bonuslink1"])
             btitle=element2.text
-            print("btitle = "+btitle)
+            #if(btitle[-21:].upper()==bonustitle.upper()):
+            #print("btitle.upper=  "+btitle.upper())
+            #print("bonustitle.upper=  " + bonustitle.upper())
+            if (btitle.upper() == bonustitle.upper()):
+                element2.click()
+        except:
+            try:
+                self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink2"])
+                element2 = self.find_element("cssSelector", UIpromotion["Bonuslink2"])
+                btitle = element2.text
+                if (btitle.upper() == bonustitle.upper()):
+                    element2.click()
+            except:
+                try:
+                    self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink3"])
+                    element2 = self.find_element("cssSelector", UIpromotion["Bonuslink3"])
+                    btitle = element2.text
+                    if (btitle.upper() == bonustitle.upper()):
+                        element2.click()
+                except:
+                    try:
+                        self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink4"])
+                        element2 = self.find_element("cssSelector", UIpromotion["Bonuslink4"])
+                        btitle = element2.text
+                        if (btitle.upper() == bonustitle.upper()):
+                            element2.click()
+                    except:
+                        try:
+                            self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink5"])
+                            element2 = self.find_element("cssSelector", UIpromotion["Bonuslink5"])
+                            btitle = element2.text
+                            if (btitle.upper() == bonustitle.upper()):
+                                element2.click()
+                        except:
+                            try:
+                                self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink6"])
+                                element2 = self.find_element("cssSelector", UIpromotion["Bonuslink6"])
+                                btitle = element2.text
+                                if (btitle.upper() == bonustitle.upper()):
+                                    element2.click()
+                            except:
+                                try:
+                                    self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink7"])
+                                    element2 = self.find_element("cssSelector", UIpromotion["Bonuslink7"])
+                                    btitle = element2.text
+                                    if (btitle.upper() == bonustitle.upper()):
+                                        element2.click()
+                                except:
+                                    try:
+                                        self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink8"])
+                                        element2 = self.find_element("cssSelector", UIpromotion["Bonuslink8"])
+                                        btitle = element2.text
+                                        if (btitle.upper() == bonustitle.upper()):
+                                            element2.click()
+                                    except:
+                                        try:
+                                            self.wait_for_element_visibility(10, "cssSelector",UIpromotion["Bonuslink9"])
+                                            element2 = self.find_element("cssSelector", UIpromotion["Bonuslink9"])
+                                            btitle = element2.text
+                                            if (btitle.upper() == bonustitle.upper()):
+                                                element2.click()
+                                        except:
+                                            raise Exception("This bonus Tiltle is not existing:  ")
+
+
+
+    def claimassignedBonus(self):
+        #print("Claim Bonus is : "+bonustitle)
+        try:
+            self.wait_for_element_visibility(10, "cssSelector", UIpromotion["ClaimBounsButton"])
+            element2 = self.find_element("cssSelector", UIpromotion["ClaimBounsButton"])
+            #btitle=element2.text
+            print("Clicking Claim Bonus Button!")
             element2.click()
         except:
-            raise Exception("This bonus Tiltle is not existing:  " )
+            raise Exception("Clicking Claim Bonus Button: Is not functioning " )
 
     def nothanks(self):
         try:

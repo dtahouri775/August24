@@ -25,10 +25,20 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
         print("log in was successful")
     def testVerify_a_User_can_Create_allkindof_bonuses_andAssigntoPlayers(self):
 
+        element = HomePageM(self.driver)
+        time.sleep(3)
         if(Admin_Dynamic['createallbonuses']=="1"):
 
-            for c in range(1, 7):  # 1:eur  2:aud  3:hkd 4:usd 5:cad 6:gbp
+
+            for c in range(1, 7):  # 1:aud  2:cad  3:3ur 4:gbp 5:hkd 6:usd
                 for bt in range(1, 8):#Bonus Type=1,2,3,4,5,6,7 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit, Held-Fund)
+
+                    if(c<4 ):
+                        continue
+
+                    if(c==4 and bt<3):
+                         continue
+
                     pname=""
                     pname = pname+"AUTO"+Admin_Dynamic['globalname']  # Plan Name:creating for example australian dollar bonus plan
                     tt = bt # Trigger Type=1,2,3,4,5,6,7 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit, Held-Fund).
@@ -36,17 +46,17 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                     cur=c#(1: Euro), (2: AUD),(3: HKD),(4: USD),(5: CAD),(6: GBP)
                     curtype=""
                     if (cur == 1):
-                        curtype =  curtype + 'eur'
-                    if (cur == 2):
                         curtype =  curtype + 'aud'
-                    if (cur == 3):
-                        curtype =  curtype + 'hkd'
-                    if (cur == 4):
-                        curtype =  curtype + 'usd'
-                    if (cur == 5):
+                    if (cur == 2):
                         curtype =  curtype + 'cad'
-                    if (cur == 6):
+                    if (cur == 3):
+                        curtype =  curtype + 'eur'
+                    if (cur == 4):
                         curtype =  curtype + 'gbp'
+                    if (cur == 5):
+                        curtype =  curtype + 'hkd'
+                    if (cur == 6):
+                        curtype =  curtype + 'usd'
 
 
                     trigertype=""
@@ -69,11 +79,11 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                     pname = pname + curtype+ trigertype+str(1)
 
                     st=1#Status=1, means active 2 non active
-                    if(c==1 and bt==1):#only one time
-                        element = HomePageM(self.driver)
+                    #if(c==1 and bt==1):#only one time
+                     #   element = HomePageM(self.driver)
 
-                    sdate="05/21/2019"
-                    edate="05/01/2029"
+                    sdate="06/06/2019"
+                    edate="06/01/2029"
                     exdays=1
                     amount=25
                     exd=1
@@ -108,6 +118,7 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                     if (text[:15] == 'Assigned users:'):
                         print("Pass!")
                     print("Done!")
+                    print("Bonus is assigne to player: "+playername)
         if (Admin_Dynamic['createallbonuses'] == "0"):
             print("No bonus creaations is requested")
 

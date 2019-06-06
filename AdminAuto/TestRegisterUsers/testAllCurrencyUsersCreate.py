@@ -27,8 +27,9 @@ class createusertest(BaseTestCase,unittest.TestCase):
             element = RegisterUserPages(self.driver)
             for c in range(1, 7):  # 1:usd  2:eur  3:gbp 4:cad 5:aud 6:hkd
                 for u in range(1, 8):#number of users for seven bonus types e.g. regular, Match,Freespin(Mb,NetEnt, RT), Deposit, HF
-
-                    #if(c<6 ):
+                    #if(c<3):
+                     #   continue
+                    #if(c==3 and u<4 ):
                      #   continue
                     element.nothanks()
                     if(c==1):
