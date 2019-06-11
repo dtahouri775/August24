@@ -2,6 +2,8 @@
 #note the relative xpath may not function on some of the explore or version of explores.
 CasinoPageMapXpath = dict(
                           rhsaccount="[data-hook='rhsaccount']",  # added Jan 2019
+                           #CloseDepositBox="[data-hook='dialogboxclose']",
+                          CloseDepositBox=".mb-modal__header__icon > g:nth-child(2) > g:nth-child(1) > polygon:nth-child(1)",
                           Usernametitle="[data-hook='login-username']",
                           #Usernametitle=".Account__title___1q0Mb",
                           newgameLocator="[data-hook='casino-newgames']",#

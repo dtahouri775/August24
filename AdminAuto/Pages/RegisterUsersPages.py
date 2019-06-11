@@ -177,6 +177,15 @@ class RegisterUserPages(BasePage):
         except:
             raise Exception("This user has not be assigned bonus:  "+username)
 
+    def verifybonusvalue(self, username):
+        try:
+            self.wait_for_element_visibility(10, "cssSelector", RegistrationPageMap["Bonusvalue"])
+            element2 = self.find_element("cssSelector", RegistrationPageMap["Bonusvalue"])
+            print("Bonus value displayed:"+element2.text)
+        except:
+            print("username="+username)
+            raise Exception("This user has not be assigned bonus or Bonus value is not displayed:  " + username)
+
 
     def verifexistingbounstitle(self,bonustitle):
         print("chacking for existance of assigned bonus: "+bonustitle)
@@ -261,6 +270,24 @@ class RegisterUserPages(BasePage):
             element2.click()
         except:
             raise Exception("Clicking Claim Bonus Button: Is not functioning " )
+    def promotionpasgeafteractivationstatus(self,username):
+        self.driver.get("https://dev06.xcl.ie/promotions/casino")
+        print("username= "+username)
+        try:  # most of the time link1 is the answer, I will put in for loop to testify unlimited links
+                self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink2"])
+                element2 = self.find_element("cssSelector", UIpromotion["Bonuslink2"])
+                btitle = element2.text
+                print(btitle)
+                print("Bug there are more than one active bonus in promotion page!! ")
+
+
+        except:
+                self.wait_for_element_visibility(10, "cssSelector", UIpromotion["Bonuslink1"])
+                element2 = self.find_element("cssSelector", UIpromotion["Bonuslink1"])
+                print("Pass! There is only one active bonus in promtion Page:"+ element2.text )
+
+
+
 
     def nothanks(self):
         try:

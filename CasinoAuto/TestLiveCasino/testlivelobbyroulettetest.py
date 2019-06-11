@@ -166,6 +166,7 @@ class liveroulettetest(BaseTestCase, unittest.TestCase):
         for i in range(1, gamecount):
             gname = rg_page_obj.verifyavailablenumbers(i)
 
+    '''
     def testVerifyRouletteResultsUpdateDuringNavigationOfTheLobbyForEvo(self):#smart putll test
 
         rg_page_obj = LiveroulettePage(self.driver)
@@ -212,7 +213,8 @@ class liveroulettetest(BaseTestCase, unittest.TestCase):
             print("info: Pass the test: VerifyRouletteResultsUpdateDuringNavigationOfTheLobbyEvo")
             rg_page_obj.appendtofile(2,"info: Pass the test: VerifyRouletteResultsUpdateDuringNavigationOfTheLobbyEvo")
 
-    def testVerifyRouletteResultsUpdateDuringNavigationOfTheLobbyForNetEnt(self):#smart putll test
+    '''
+    def testVerifyRouletteResultsUpdateDuringNavigationOfTheLobbyForNetEntAndEvo(self):#smart putll test
 
         rg_page_obj = LiveroulettePage(self.driver)
         rg_page_obj.liveroulette()
@@ -227,9 +229,9 @@ class liveroulettetest(BaseTestCase, unittest.TestCase):
         oldhistory = []
         for i in range(1, gamecount):
             providerlog = rg_page_obj.verifyproviderlogname(i)
-            if (providerlog == 0):#may I need to modify this portion
-                historymainpage = rg_page_obj.verifyavailablenumbers(i)
-                oldhistory.append(historymainpage)
+            #if (providerlog == 0):#may I need to modify this portion
+            historymainpage = rg_page_obj.verifyavailablenumbers(i)
+            oldhistory.append(historymainpage)
         rg_page_obj.navaigatetofeaturepage()
         print("oldhistory =", oldhistory)
         rg_page_obj.navaigatetofeaturepage()
@@ -257,6 +259,7 @@ class liveroulettetest(BaseTestCase, unittest.TestCase):
             print("info: Pass the test: VerifyRouletteResultsUpdateDuringNavigationOfTheLobby NeEng")
             rg_page_obj.appendtofile(2,"Pass the test: VerifyRouletteResultsUpdateDuringNavigationOfTheLobby NeEng")
 
+    '''
     def testVerifyEvolutionRouletteResultsUpdateonLandingPageDuringNavigation(self):#smart putll test
 
         rg_page_obj = LiveroulettePage(self.driver)
@@ -313,7 +316,8 @@ class liveroulettetest(BaseTestCase, unittest.TestCase):
             print("numevo=", numevo)
             rg_page_obj.appendtofile(2,"numevo="+str(numevo))
 
-    def testVerifyNetentRouletteResultsUpdateonLandingPageDuringNavigation(self):#smart putll test
+    '''
+    def testVerifyNetentAndEvoRouletteResultsUpdateonLandingPageDuringNavigation(self):#smart putll test
 
         rg_page_obj = LiveroulettePage(self.driver)
         rg_page_obj.liveroulette()
@@ -331,14 +335,10 @@ class liveroulettetest(BaseTestCase, unittest.TestCase):
         #for i in range(6, 7):
         for i in range(1, gamecount):
             providerlog = rg_page_obj.verifyproviderlogname(i)
-            if (providerlog != 0):#Evo is u ''
-                continue
-            if (providerlog == 0):
-               numnetent=numnetent+1
-               #rg_page_obj.navaigatetofeaturepage()#currently verifying log name takes time, so we need to be updated here
-               #time.sleep(1)
-               #rg_page_obj.liveroulette()
-               #time.sleep(3)
+            #if (providerlog != 0):#Evo is u ''
+             #   continue
+            #if (providerlog == 0):
+             #  numnetent=numnetent+1
             historymainpage = rg_page_obj.verifyavailablenumbers(i)
             historylandingpage = rg_page_obj.verifyavailablenumberslandingpage(i)
             if(historymainpage==historylandingpage):

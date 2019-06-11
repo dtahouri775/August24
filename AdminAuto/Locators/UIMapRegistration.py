@@ -7,6 +7,7 @@ RegistrationPageMap = dict(
     Nothanksbutton="[data-hook='no-thanks']",
     LOGIN1="[data-hook='login-top']",
     Join= "[data-hook='loginjoinnow']",
+    Bonusvalue="[data-hook='casino-bonus-value']",
 
     # Css for Email field
     Email="[data-hook='register-email']",

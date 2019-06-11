@@ -677,7 +677,15 @@ class LiveblackjackPage(BasePage):
         if (ta1value < tb1value):
             return 1
 
-
+    def closedepositbox(self):
+        try:
+            self.wait_for_element_visibility(10, "cssSelector", CasinoPageMapXpath["CloseDepositBox"])
+            element = self.find_element("cssSelector", CasinoPageMapXpath["CloseDepositBox"])
+            element.click()
+            time.sleep(1)
+            element.click()
+        except:
+            print(" Deposit Box dialog box is not opened to be closed!")
     def appendtofile(self, k, string):  # k= 1 is observed missing bug, k = 2 only information of tested
 
         d = datetime.datetime.today()

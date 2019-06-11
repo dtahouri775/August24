@@ -223,6 +223,7 @@ class LiveothersPage(BasePage):
                 text = gamedes.text
                 print("Info Game description is:",text)
                 self.appendtofile(2, "Info Game description is:" + str(text))
+                print("test!!")
             except:
                 self.appendtofile(1, "Bug Game Descritpin is not available Liveinfo=" + str(a))
                 print("Info Bug Game Descritpin is not available ")

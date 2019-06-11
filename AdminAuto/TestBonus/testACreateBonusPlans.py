@@ -32,13 +32,13 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
 
             for c in range(1, 7):  # 1:aud  2:cad  3:3ur 4:gbp 5:hkd 6:usd
                 for bt in range(1, 8):#Bonus Type=1,2,3,4,5,6,7 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit, Held-Fund)
-
-                    if(c<4 ):
+                    '''
+                    if(c<3 ):
                         continue
 
-                    if(c==4 and bt<3):
+                    if(c==3 and bt<7):
                          continue
-
+                    '''
                     pname=""
                     pname = pname+"AUTO"+Admin_Dynamic['globalname']  # Plan Name:creating for example australian dollar bonus plan
                     tt = bt # Trigger Type=1,2,3,4,5,6,7 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit, Held-Fund).

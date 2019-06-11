@@ -35,13 +35,13 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             deductedimage = lg_page_obj.getdeductedimage()
             if(Casino_Constants['Browser']=='edge'):#edge does not recognize number of images correctly
                 ng=10
-
-            #print("Info: Number of images in this page equals: ",ng)
-            print("Info: Number of games in this page equals: ", deductedimage)
-            lg_page_obj.appendtofile(2,"Info: Number of games in this page equals: "+str(deductedimage))
+            gamecount = lg_page_obj.numberofexistinggamewithname()
+            print("Info: Number of games in this page equals: ", gamecount)
+            lg_page_obj.appendtofile(2,"Info: Number of games in this page equals: "+str(gamecount))
             time.sleep(1)
             k=0
-            for i in range(1,deductedimage+1):  # footer images are deducted (- 5), and there are additional image on this page too
+
+            for i in range(1,gamecount):  # footer images are deducted (- 5), and there are additional image on this page too
                 #print('Info: i= ',i)
                 exist=lg_page_obj.existgameimage(i)
                 try:  # just to make sure that the issue is not Nothanks button that randomly appears in Blackjack page
@@ -55,6 +55,8 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
                 if (exist == 1):
                     gname = lg_page_obj.click_loginfromlandingpage(i)
                     #print("Info gname=",gname)
+                    #lg_page_obj.closedepositbox()#need to check why it does not work
+                    #time.sleep(1)
                     lg_page_obj.logout()
                     time.sleep(1)
                     #print("Info Successful Log out")
@@ -178,8 +180,9 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
         time.sleep(1)
         for i in range(1, gamecount ):
             gamename = rg_page_obj.returngamename(i)
-            print("Debug=",gamename[:16])
-            if (gamename[:16] == "Live Common Draw"):
+            if ("Free" in gamename):
+                continue
+            if ("Common" in gamename):
                 continue
 
             gname = rg_page_obj.verifyavailableseats(i)
@@ -209,24 +212,34 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
         historynewmainpage = []
         bug_mismatch = 0
         for i in range(1, gamecount):  # footer images are deducted (- 5)
-            providername = rg_page_obj.verifyproviderlogname(i)
-            if (providername != 0):  # We need to add game names here based on games added here or modify our current datahook naming
-                historyseat = rg_page_obj.verifyupdateseats(i)
-                historymainpage.append(historyseat)
-            if (providername == 0 ):
+            gamename = rg_page_obj.returngamename(i)
+            if ("Free" in gamename):
                 continue
-
+            if ("Common" in gamename):
+                continue
+            providername = rg_page_obj.verifyproviderlogname(i)
+            #if (providername != 0):  # We need to add game names here based on games added here or modify our current datahook naming
+            historyseat = rg_page_obj.verifyupdateseats(i)
+            historymainpage.append(historyseat)
+            #if (providername == 0 ):
+            #    continue
+        gamecount = rg_page_obj.numberofexistinggamewithname()
         print("historymainpage =", historymainpage)
         rg_page_obj.navaigatetofeaturepage()
         time.sleep(60)
         rg_page_obj.liveblackjack()
-        for i in range(1, deductedimage+1):  # footer images are deducted (- 5)
-            providername = rg_page_obj.verifyproviderlogname(i)
-            if (providername != 0 ):  # We need to add game names here based on games added here or modify our current datahook naming
-                historyseat = rg_page_obj.verifyupdateseats(i)
-                historynewmainpage.append(historyseat)
-            if (providername == 0 ):
+        for i in range(1,gamecount):  # footer images are deducted (- 5)
+            gamename = rg_page_obj.returngamename(i)
+            if ("Free" in gamename):
                 continue
+            if ("Common" in gamename):
+                continue
+            providername = rg_page_obj.verifyproviderlogname(i)
+            #if (providername != 0 ):  # We need to add game names here based on games added here or modify our current datahook naming
+            historyseat = rg_page_obj.verifyupdateseats(i)
+            historynewmainpage.append(historyseat)
+            #if (providername == 0 ):
+            #    continue
         if (historymainpage != historynewmainpage):
             print(" ")
             print("Info: numbers in main page and landing pager are matching game_num=", i)
@@ -239,6 +252,7 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             print("historylandingpage=", historynewmainpage)
             rg_page_obj.appendtofile(1, "historylandingpage=" + str(historynewmainpage))
 
+    '''
     def testVerifySeatsAvailableUpdateOnNetEntBlackjackDuringNavigationofTheLobby(self):  # smart putll test
 
             rg_page_obj = LiveblackjackPage(self.driver)
@@ -260,11 +274,11 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             bug_mismatch = 0
             for i in range(1, gamecount):
                 providername = rg_page_obj.verifyproviderlogname(i)
-                if (providername == 0):  # We need to add game names here based on games added here or modify our current datahook naming
-                    historyseat = rg_page_obj.verifyupdateseats(i)
-                    historymainpage.append(historyseat)
-                if (providername != 0):
-                    continue
+                #if (providername == 0):  # We need to add game names here based on games added here or modify our current datahook naming
+                historyseat = rg_page_obj.verifyupdateseats(i)
+                historymainpage.append(historyseat)
+                #if (providername != 0):
+                #    continue
 
             print("historymainpage =", historymainpage)
             rg_page_obj.navaigatetofeaturepage()
@@ -272,11 +286,11 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             rg_page_obj.liveblackjack()
             for i in range(1, deductedimage):  # footer images are deducted (- 5)
                 providername = rg_page_obj.verifyproviderlogname(i)
-                if (providername == 0):  # We need to add game names here based on games added here or modify our current datahook naming
-                    historyseat = rg_page_obj.verifyupdateseats(i)
-                    historynewmainpage.append(historyseat)
-                if (providername != 0):
-                    continue
+                #if (providername == 0):  # We need to add game names here based on games added here or modify our current datahook naming
+                historyseat = rg_page_obj.verifyupdateseats(i)
+                historynewmainpage.append(historyseat)
+                #if (providername != 0):
+                #    continue
             if (historymainpage != historynewmainpage):
                 print(" ")
                 print("Info: numbers in main page and landing pager are matching game_num=", i)
@@ -293,7 +307,8 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
 
         # Verify Seats Available On Blackjack Evolution Update on Landing Page During Navigation
 
-    def testVerifySeatsAvailableOnBlackjackEvolutionUpdateonLandingPageDuringNavigation(self):  # smart putll test
+    '''
+    def testVerifySeatsAvailableOnBlackjackEvolutionAndNetEntUpdateonLandingPageDuringNavigation(self):  # smart putll test
         rg_page_obj = LiveblackjackPage(self.driver)
         rg_page_obj.liveblackjack()
         ng = rg_page_obj.getgamenumber()
@@ -310,24 +325,35 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
         historynewlandingpage = []
         bug_mismatch = 0
         for i in range(1, gamecount):  # footer images are deducted (- 5)
-            providername = rg_page_obj.verifyproviderlogname(i)
-            if (providername != 0):  # We need to add game names here based on games added here or modify our current datahook naming
-                historyseat = rg_page_obj.verifyupdateseatslandingpage(i)
-                historylandingpage.append(historyseat)
-            if (providername == 0):
+            gamename = rg_page_obj.returngamename(i)
+            if("Free" in gamename):
                 continue
+            if ("Common" in gamename):
+                continue
+
+            #providername = rg_page_obj.verifyproviderlogname(i)
+            #if (providername != 0):  # We need to add game names here based on games added here or modify our current datahook naming
+            historyseat = rg_page_obj.verifyupdateseatslandingpage(i)
+            historylandingpage.append(historyseat)
+            #if (providername == 0):
+            #    continue
 
         print("historymainpage =", historylandingpage)
         rg_page_obj.navaigatetofeaturepage()
         time.sleep(60)
         rg_page_obj.liveblackjack()
-        for i in range(1, deductedimage+1):  # footer images are deducted (- 5)
-            providername = rg_page_obj.verifyproviderlogname(i)
-            if (providername != 0):  # We need to add game names here based on games added here or modify our current datahook naming
-                historyseat = rg_page_obj.verifyupdateseatslandingpage(i)
-                historynewlandingpage.append(historyseat)
-            if (providername == 0):
+        for i in range(1, gamecount):  # footer images are deducted (- 5)
+            gamename = rg_page_obj.returngamename(i)
+            if ("Free" in gamename):
                 continue
+            if ("Common" in gamename):
+                continue
+            providername = rg_page_obj.verifyproviderlogname(i)
+            #if (providername != 0):  # We need to add game names here based on games added here or modify our current datahook naming
+            historyseat = rg_page_obj.verifyupdateseatslandingpage(i)
+            historynewlandingpage.append(historyseat)
+            #if (providername == 0):
+            #    continue
         if (historylandingpage != historynewlandingpage):
             print(" ")
             print("Info: numbers in landing pager are updated")
@@ -342,6 +368,7 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             print("historylandingpage=", historylandingpage)
             rg_page_obj.appendtofile(1, "historynewlandingpage=" + str(historynewlandingpage))
 
+    '''
     def testVerifySeatsAvailableOnBlackjackNetEntUpdateonLandingPageDuringNavigation(self):  # smart putll test
         rg_page_obj = LiveblackjackPage(self.driver)
         rg_page_obj.liveblackjack()
@@ -375,7 +402,7 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
         rg_page_obj.navaigatetofeaturepage()
         time.sleep(60)
         rg_page_obj.liveblackjack()
-        for i in range(1, deductedimage+1):  # footer images are deducted (- 5)
+        for i in range(1, gamecount):  # footer images are deducted (- 5)
             providername = rg_page_obj.verifyproviderlogname(i)#after recent change in UI 0 meand NetEnt, u'' means Evo
             gamename = rg_page_obj.returngamename(i)
             if (providername == 0  and gamename[:16] !="Live Common Draw"):  # We need to add game names here based on games added here or modify our current datahook naming
@@ -394,8 +421,8 @@ class liveblackjacktest(BaseTestCase, unittest.TestCase):
             print(" historylandingpage=",  historylandingpage)
             rg_page_obj.appendtofile(1, " historylandingpage=" + str(historylandingpage))
             print("historylandingpage=", historylandingpage)
-            rg_page_obj.appendtofile(1, "historynewlandingpage=" + str(historynewlandingpage))
-
+             rg_page_obj.appendtofile(1, "historynewlandingpage=" + str(historynewlandingpage))
+        '''
 
     def testVerify_A_User_Can_Sort_Blackjack_Name_Descending_By_Clicking_text_ZAtest(self):
         rg_page_obj = LiveblackjackPage(self.driver)

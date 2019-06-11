@@ -28,8 +28,9 @@ class uiconsitentadmin(BaseTestCase, unittest.TestCase):
        page_obj = RegisterUserPages(self.driver)
        for c in range(1, 7):  # 1:eur  2:aud  3:hkd 4:usd 5:cad 6:gbp
            for bt in range(1, 7):  # Bonus Type=1,2,3,4,5,6 (Regular,Match,FreeSpins,NetEntFreeRound,RedtigerFreeRound,Deposit)
-               if(bt==1):#/debyg purpose only should by by passed once it is done!!
-                   continue
+               #if(bt==1):#/debyg purpose only should by by passed once it is done!!
+                #   continue
+
                cur = c  # (1: Euro), (2: AUD),(3: HKD),(4: USD),(5: CAD),(6: GBP)
                curtype = ""
                if (cur == 1):

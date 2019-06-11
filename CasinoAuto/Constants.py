@@ -5,7 +5,7 @@ Casino_Constants = dict(Browser           = "chrome",
                         #Base_URL          = "https://www.matchbook.com",
                         #Base_URL          = "http://uidev01.ovh.xcl.ie",  #uses Production data base
                         #CAsino_Username="dary_usd",
-                        CAsino_Username="May21",#need to add extra words in admin UI bonus tests.
+                        CAsino_Username="mbseur6",#need to add extra words in admin UI bonus tests.
                         #Base_URL="http://10.68.0.237:8000",  # Red second env
 
                         Casino_Password = "Password1"
