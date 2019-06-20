@@ -105,7 +105,10 @@ PostCode="[data-hook='register-postcode']",
     CloseAndJoin=".mb-modal__header__icon > g:nth-child(2) > g:nth-child(1) > polygon:nth-child(1)",
     #Feebacktest="body > div.ReactModalPortal > div > div > div > div.mb-modal__content > div > div.Feedback__containerInput___3s20S > textarea",
     Table_Real_Play="[data-hook='casino-landing-page-betlimit1']",
+    #/html/body/div[3]/div/div/div/div[1]/div/svg
+    #CloseDepositBox="/html/body/div[3]/div/div/div/div[1]/div",
     CloseDepositBox="/html/body/div[3]/div/div/div/div[1]/div",
+    CloseDepositBox2="[data-hook='dialogboxclose']",
 
 #data-hook="register-postcode"
     rhsaccount="[data-hook='rhsaccount']",

@@ -195,28 +195,28 @@ class HomePageM(BasePage):
             element = self.find_element("xpath", AdminBonusCreationMap['pnamebox'])
             self.click(10, "xpath", AdminBonusCreationMap['pnamebox'])
             self.fill_out_field("xpath", AdminBonusCreationMap['pnamebox'], pname)
-            time.sleep(1)
+            time.sleep(2)
             print("Plan Name is entered!")
             #priority
             self.wait_for_element_visibility(10, "xpath", AdminBonusCreationMap['periority'])
             element = self.find_element("xpath", AdminBonusCreationMap['periority'])
             self.click(10, "xpath", AdminBonusCreationMap['periority'])
             self.fill_out_field("xpath", AdminBonusCreationMap['periority'], pr)
-            time.sleep(1)
+            time.sleep(2)
             print("Priority is entered!")
             #Trigger Type
             trigertype = "trigertype" +str(tt)
             self.wait_for_element_visibility(10, "xpath", AdminBonusCreationMap[trigertype])
             element = self.find_element("xpath", AdminBonusCreationMap[trigertype])
             self.click(10, "xpath", AdminBonusCreationMap[trigertype])
-            time.sleep(1)
+            time.sleep(2)
             print("Trigger Type is Selected!")
             #Status
             status = "status" + str(st)
             self.wait_for_element_visibility(10, "xpath", AdminBonusCreationMap[status])
             element = self.find_element("xpath", AdminBonusCreationMap[status])
             self.click(10, "xpath", AdminBonusCreationMap[status])
-            time.sleep(1)
+            time.sleep(2)
             print("Status Type is Selected!")
             #Start Date
             #self.driver.findElement(By.id("dp1557952495805")).click()
@@ -225,17 +225,20 @@ class HomePageM(BasePage):
             element = self.find_element("name", AdminBonusCreationMap['startdate'])
             self.click(10, "name", AdminBonusCreationMap['startdate'])
             self.fill_out_field("name", AdminBonusCreationMap['startdate'], sdate)
-            time.sleep(1)
+            time.sleep(2)
             print("Start date is entered!")
             self.click(10, "xpath", AdminBonusCreationMap['pnamebox'])#click somewhere else to make sure end date is visible
+            time.sleep(2)
             #End Date
             self.wait_for_element_visibility(10, "name", AdminBonusCreationMap['enddated'])
             element = self.find_element("name", AdminBonusCreationMap['enddated'])
             self.click(10, "name", AdminBonusCreationMap['enddated'])
+            time.sleep(2)
             self.fill_out_field("name", AdminBonusCreationMap['enddated'],edate)
-            time.sleep(1)
+            time.sleep(2)
             print("End date is entered!")
             self.click(10, "xpath", AdminBonusCreationMap['pnamebox'])  # click somewhere else
+            time.sleep(2)
             curencytype="currency"+str(cur)
             #Currencies type
             self.click(10, "xpath", AdminBonusCreationMap["currency"])
@@ -246,38 +249,38 @@ class HomePageM(BasePage):
             element = self.find_element("xpath", AdminBonusCreationMap["expirydate"])
             self.click(10, "xpath", AdminBonusCreationMap["expirydate"])
             self.fill_out_field("xpath", AdminBonusCreationMap['expirydate'], exd)
-            time.sleep(1)
+            time.sleep(2)
             print("Expiry date is filled!")
             element = self.find_element("xpath", AdminBonusCreationMap["amount"])
             self.click(10, "xpath", AdminBonusCreationMap["amount"])
             self.fill_out_field("xpath", AdminBonusCreationMap['amount'], amount)
-            time.sleep(1)
+            time.sleep(2)
             print("amount is filled!")
             element = self.find_element("xpath", AdminBonusCreationMap["roloverrequirement"])
             self.click(10, "xpath", AdminBonusCreationMap["roloverrequirement"])
             self.fill_out_field("xpath", AdminBonusCreationMap['roloverrequirement'], rr)
-            time.sleep(1)
+            time.sleep(2)
             print("roloverrequirement is filled!")
             element = self.find_element("xpath", AdminBonusCreationMap["maxbetlimit"])
             self.click(10, "xpath", AdminBonusCreationMap["maxbetlimit"])
             self.fill_out_field("xpath", AdminBonusCreationMap['maxbetlimit'], mbl)
-            time.sleep(1)
+            time.sleep(2)
             print("Maxbetlimit is filled!")
             if(tt==3):#MB free spins values
                 self.click(10, "name", AdminBonusInfoMap["coinvalue"])
                 cv = "0.50"
                 self.fill_out_field("name", AdminBonusInfoMap['coinvalue'], cv)
-                time.sleep(1)
+                time.sleep(2)
                 element=self.find_element("xpath", "/html/body/div[1]/div/form/table/tbody/tr[22]/td[2]/table/tbody/tr[2]/td[2]/input")
                 element.click()
                 bpl = "5"
                 #element.click()
                 self.fill_out_field("xpath", "/html/body/div[1]/div/form/table/tbody/tr[22]/td[2]/table/tbody/tr[2]/td[2]/input",bpl)
-                time.sleep(1)
+                time.sleep(2)
                 self.click(10, "name", AdminBonusInfoMap["numberoflines"])
                 nl = "20"
                 self.fill_out_field("name", AdminBonusInfoMap['numberoflines'], nl)
-                time.sleep(1)
+                time.sleep(2)
 
             if(tt==4):
                 element = self.find_element("xpath","/html/body/div[1]/div/form/table/tbody/tr[20]/td[2]/input")
@@ -287,7 +290,7 @@ class HomePageM(BasePage):
                 self.fill_out_field("xpath","/html/body/div[1]/div/form/table/tbody/tr[20]/td[2]/input",bpl)
             if(tt==5):
                 self.click(10, "xpath", AdminBonusInfoMap["rtstake"])
-                time.sleep(1)
+                time.sleep(2)
                 self.click(10, "xpath", AdminBonusInfoMap["rtstake8"])
 
             if(ucr==0):
@@ -323,7 +326,7 @@ class HomePageM(BasePage):
             #self.click(10, "xpath", AdminBonusCreationMap["termandcondition"])
             self.fill_out_field("xpath", AdminBonusCreationMap['termandcondition'], text)
 
-            time.sleep(1)
+            time.sleep(2)
             if(tt==7):#held fund bonu
                 self.click(10, "name", AdminBonusCreationMap["claimamounthf"])
                 text = "1,5,10"

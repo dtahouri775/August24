@@ -43,7 +43,7 @@ class slotsgpagetest(BaseTestCase, unittest.TestCase):
 
             print("Number of images in this page equals: ",ng)
             time.sleep(5)
-            for i in range(1,ng-6):  # footer images are deducted (- 5)
+            for i in range(188,ng-6):  # footer images are deducted (- 5)
             #for i in range(1, 10):  # checking only five of them, takes long checking for more than 110 games
                 print("Going to landing page= ", i)
                 gname=sg_page_obj.click_loginfromlandingpage(i)
