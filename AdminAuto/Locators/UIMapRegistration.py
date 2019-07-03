@@ -4,6 +4,8 @@ Created on April30 , 2019
 @author: Daryoush
 '''
 RegistrationPageMap = dict(
+    AcceptDepoTerm="a.mb-button:nth-child(2)",
+    CloseDepositBox="/html/body/div[3]/div/div/div/div[1]/div",
     Nothanksbutton="[data-hook='no-thanks']",
     LOGIN1="[data-hook='login-top']",
     Join= "[data-hook='loginjoinnow']",
@@ -79,7 +81,7 @@ RegistrationPageMap = dict(
     # //*[@id='option-0']#Afghanistan
     # //*[@id='option-1']#Albania
     Country_Select_eur="//*[@id='option-81']",#irland
-    Country_Select_gbp="//*[@id='option-184']",#United Kingdom
+    Country_Select_gbp="//*[@id='option-183']",#United Kingdom used to be 184
     Country_Select_usd="//*[@id='option-82']",#Isle of Man
     Country_Select_cad="//*[@id='option-82']",#Isle of Man
     Country_Select_aud="//*[@id='option-9']",  # Austeralia
@@ -105,7 +107,7 @@ PostCode="[data-hook='register-postcode']",
     CloseAndJoin=".mb-modal__header__icon > g:nth-child(2) > g:nth-child(1) > polygon:nth-child(1)",
     #Feebacktest="body > div.ReactModalPortal > div > div > div > div.mb-modal__content > div > div.Feedback__containerInput___3s20S > textarea",
     Table_Real_Play="[data-hook='casino-landing-page-betlimit1']",
-    CloseDepositBox="/html/body/div[3]/div/div/div/div[1]/div",
+
 
 #data-hook="register-postcode"
     rhsaccount="[data-hook='rhsaccount']",
@@ -134,5 +136,7 @@ UILogInMap = dict(  PlayforFun="[data-hook='casino-landing-page-play-for-fun']",
                       LoginButtonXpath="/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/form/div[2]/a[1]",#will modify when data hook av
                       ForgotPasswordXpath= "/html/body/div[3]/div/div/div/div[2]/div/div[1]/div[2]/span/div/form/div[2]/a[2]",#will modify when data hook av
                       JoinNowXpath="//*[@id='mb-join-now-button']",#will modify when data hook is available
-                      BetNowButtonXpath="//*[@id='mb-join-now-right-image']"#will modify when data hook is available
+                      BetNowButtonXpath="//*[@id='mb-join-now-right-image']",#will modify when data hook is available
+                       AcceptCookies = "[data-hook='acceptcookies']",
+                       Availablebalance = "[data-hook='availablebalance']"
                   )
