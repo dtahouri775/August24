@@ -6,7 +6,7 @@ Created on October 12, 2018
 Moddified on September 14
 Modified on Feb 04 2019 to implement new logic in Play for Fun
 '''
-
+from AdminAuto.Locators.UIMapRegistration import RegistrationPageMap#to close deposit box recently added
 from CasinoAuto.Locators.UIMapCasinoPage import CasinoPageMapXpath
 from CasinoAuto.Locators.UIMapVideoPokerGamesPage import VideoPokerGamePageMapXpath
 from CasinoAuto.Locators.UIMapVideoPokerGamesPage import VideoPokerGamePageMaptype
@@ -261,6 +261,15 @@ class VideoPokerPage(BasePage):
 
         else:
             print"This game do not have play for fun check to make sure it is live game!"
+        try:
+
+            element2 = self.wait_for_element_visibility(10, "xpath", RegistrationPageMap["CloseDepositBox"])
+            element2 = self.find_element("xpath", RegistrationPageMap["CloseDepositBox"])
+            element2.click()
+
+            # self.click(10, "cssSelector", RegistrationPageMap['CloseDepositBox2'])
+        except:
+            print("Deposit Dialog box is not opened in access to play for Fun!")
         testedurl = self.driver.current_url
         element2 = self.wait_for_element_visibility(10, "cssSelector", HomePageMapXpath["lhncasinoLocator"])
         element2 = self.find_element("cssSelector", HomePageMapXpath["lhncasinoLocator"])

@@ -82,10 +82,10 @@ class testCreateBonusPlans(BaseTestCase,unittest.TestCase):
                     #if(c==1 and bt==1):#only one time
                      #   element = HomePageM(self.driver)
 
-                    sdate="06/06/2019"
+                    sdate="06/19/2019"
                     edate="06/01/2029"
                     exdays=1
-                    amount=25
+                    amount=250
                     exd=1
                     rr=0#Rollover Requirement
                     mbl=5#Max Bet Limit

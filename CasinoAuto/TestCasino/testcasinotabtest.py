@@ -37,13 +37,12 @@ class casinotabstest(BaseTestCase,unittest.TestCase):
     def testSlotsGamesTabsTest(self):
         casino_page_obj = CasinoPage(self.driver)
         casino_page_obj.slotgames()
-        #time.sleep(2)       #time.sleep(2)      
-        
+        #time.sleep(2)       #time.sleep(2)
     #Verify A User Can Access Table Games in Casino
     def testTableGamesTabsTest(self):
         casino_page_obj = CasinoPage(self.driver)
         casino_page_obj.tablegames()
-        #time.sleep(2)
+        #time.sleep(2)this is only for the test
     #Verify A User Can Access Video Poker in Casino
     def testVideoPokerGamesTabsTest(self):
         casino_page_obj = CasinoPage(self.driver)

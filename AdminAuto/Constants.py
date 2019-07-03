@@ -3,7 +3,7 @@ Created on Feb06 , 2019
 
 @author: Daryoush
 '''
-Admin_Constants = dict(Browser           = "firefox",
+Admin_Constants = dict(Browser           = "chrome",
                         Base_URL          = "http:/dev06.xcl.ie:20194/zf/login",
                         Client_URL          = "https://dev06.xcl.ie/casino",
                         # Client_URL          = "https://www.matchbook.com",
@@ -14,7 +14,7 @@ Admin_Constants = dict(Browser           = "firefox",
 
                         )
 Admin_Dynamic = dict(
-                        globalname="dj10orac",#Based on this name users created, bonus created, bonus assigned
+                        globalname="Djune19_",#Based on this name users created, bonus created, bonus assigned
                         uipassword="Password1",
                         createallbonuses="1",#zero mean no crealtion of all bonuses
                         createallusers="1",#zero mean no crealtion of all users
