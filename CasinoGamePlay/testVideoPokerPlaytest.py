@@ -1,4 +1,3 @@
-from CasinoAuto.GamePlay import MouseIntercepts
 import unittest
 import nose
 import time
